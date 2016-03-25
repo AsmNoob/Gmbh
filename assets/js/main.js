@@ -8,11 +8,12 @@ function showme(id, linkid) {
         var divid = document.getElementById(id);
         var toggleLink = document.getElementById(linkid);
         if (divid.style.display == 'block') {
-            toggleLink.innerHTML = 'More Info';
+            toggleLink.innerHTML = "Plus d'informations";
             divid.style.display = 'none';
+
         }
         else {
-            toggleLink.innerHTML = 'Less Info';
+            toggleLink.innerHTML = "Moins d'information";
             divid.style.display = 'block';
         }
     }

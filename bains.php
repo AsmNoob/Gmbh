@@ -24,18 +24,6 @@
 					</header>
 				</section>
 
-
-
-
-<a id="toggler" onclick="showme('widget', this.id);" href="#">Show Widget</a>
-
-<div id="widget" style="display:none;">
-This is a widget
-</div>
-
-
-
-
 			<!-- Posts -->
 				<section class="wrapper style2"><a name="bains"></a>
 					<div class="container">
@@ -47,7 +35,7 @@ This is a widget
 						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
 						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
 						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
-						<a id="toggler" onclick="showme('dimensions', this.id);" >More Info</a>
+						<p><a id="toggler" onclick="showme('dimensions', this.id);" >Plus d'informations</a></p>
 						<p id="dimensions" style="display:none;">
 						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
 						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
@@ -57,14 +45,15 @@ This is a widget
 						Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br>
 						Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. 
 						La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes 
-						assises est de 60-65 cm.</br></p>
-					</div>
+						assises est de 60-65 cm.</p>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
-							<p><strong>Baignoire</strong></p>
+							<p name = "baignoire"><strong>Baignoire</strong></p>
 						</header>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
@@ -74,11 +63,12 @@ This is a widget
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
 						</p>
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Tonneau</strong></p>
 						</header>
@@ -90,11 +80,12 @@ This is a widget
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
 						</p>
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Personnalisation</strong></p>
 						</header>
@@ -104,19 +95,20 @@ This is a widget
 						<p>Quelque exemples de formes exceptionnelles :</p>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un  <strong>bain assis</strong> : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm</br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un <strong>bain assis</strong> ou <strong>tonneau de plongeon</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm</br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour des <strong>baignoires larges</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre </br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre 
 						</p>
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Profil supérieur et inférieur</strong></p>
 						</header>
@@ -127,20 +119,21 @@ This is a widget
 							</strong>
 						</p>
 						</br>
-						<p><strong>Profil supérieur</strong></p>
-						<p>Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
-							profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.</p>
+						<a id="toggler" onclick="showme('profils', this.id);" >Plus d'informations</a>
+						<p id="profils" style="display:none;"><strong>Profil supérieur</strong></br>
+						Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
+						profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.
 						</br>
-						<p><strong>Profil inérieur</strong></p>
-						<p>Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
+						<strong>Profil inérieur</strong></br>
+						Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
 							sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p>
-						</br>
 						
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Positionnement</strong></p>
 						</header>
@@ -152,30 +145,31 @@ This is a widget
 								n’importe quel angle par n’importe quel endroit dépendant de 
 								l’aménagement de votre pièce d’eau.</strong>
 						</p>
-						<p>Suivant vos esquisses de projet nous pourrons adapter le raccord technique de la baignoire. Il sera donc important de nous communiquer les documents graphiques nécessaires à l’établissement des détails de ces raccords.
+						<a id="toggler" onclick="showme('position', this.id);" >Plus d'informations</a>
+						<p id="position" style="display:none;">Suivant vos esquisses de projet nous pourrons adapter le raccord technique de la baignoire. Il sera donc important de nous communiquer les documents graphiques nécessaires à l’établissement des détails de ces raccords.
 La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité. Un raccord couvert au mur permet d’y installer les techniques et de faciliter le nettoyage et l’entretien de la baignoire.
 </p>
 						</br>
 						
+					<!-- </div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container"> -->
+						<header class="major">
+							
+						</header>
+						</br>
+					<!-- </div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container"> -->
+						<header class="major">
+							
+						</header>
+						</br>
 					</div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							
-						</header>
-						</br>
-											</div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							
-						</header>
-						</br>
-											</div>
 				</section>
 
 						<div class="row">

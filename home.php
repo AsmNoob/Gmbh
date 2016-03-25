@@ -45,10 +45,11 @@ $_SESSION['listeProduits'] = $array;
 						</br>
 							<p><strong>Pourquoi le bois ?</strong></p>
 						</header>
-						<h5>Le matériau naturel qu’est le bois se prête à merveille à l’expérience de wellness.
+						<p><strong>Le matériau naturel qu’est le bois se prête à merveille à l’expérience de wellness.
 						 L’alliance du bois massif, l’air et l’eau crée un climat inégalable pour la détente.
-						  De plus, ses qualités inhérentes en font un matériau exceptionnellement adapté aux équipements sanitaires.</h5>
-						<p>Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de 
+						  De plus, ses qualités inhérentes en font un matériau exceptionnellement adapté aux équipements sanitaires.</strong></p>
+						 <p><a id="toggler" onclick="showme('bois', this.id);" >Plus d'informations</a></p>
+						<p id="bois" style="display:none;">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de 
 							la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, 
 							polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, 
 							qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi 
@@ -63,11 +64,12 @@ demande cependant plus d’entretien. Le bois, étant massif, se patine homogèn
 
 
 
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Produits</strong></p>
 						</header>
@@ -77,18 +79,20 @@ demande cependant plus d’entretien. Le bois, étant massif, se patine homogèn
 Chacun de ces produits est produit avec le plus grand soin pour garantir leur qualité. La production de votre produit est suivie 
 individuellement de la conception à la fabrication afin de vous garantir le résultat le plus adapté possible.</strong></p>
 						
-					</div>
+					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
-					<div class="container">
+					<div class="container"> -->
+					</br>
 						<header class="major">
 							<p><strong>Personnalisation</strong></p>
 						</header>
 						<p><strong>Grâce à la production unique des produits, une personnalisation poussée est possible. 
 							Le dessin de votre produit sera dans tous les cas exactement adapté à vos désirs et vos besoins.</strong></p>
 						
-						<p>Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons 
+						<p><a id="toggler" onclick="showme('perso', this.id);" >Plus d'informations</a></p>
+						<p id="perso" style="display:none;">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons 
 							par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses 
 							préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation. 
 Dans la section dédiée à chaque type de produit spécifique vous trouverez une description des différentes options possibles, allant des 

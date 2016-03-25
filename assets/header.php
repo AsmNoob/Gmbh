@@ -1,7 +1,7 @@
 <div id="header" style="display:none">
 
 	<!-- Logo -->
-		<h1><a href="home.php" id="logo">Blumenberg  <em>GmbH</em></a></h1>
+		<h1><a href="home.php" id="logo">Caca sur mon doigt  <em>GmbH</em></a></h1>
 
 	<!-- Nav -->
 		<nav id="nav">
@@ -13,7 +13,7 @@
 						<li><a href="bains.php#dimensions">Dimensions et forme</a></li>
 						<li><a href="bains.php#baignoire">Baignoire</a></li>
 						<li><a href="bains.php#tonneau">Tonneau</a></li>
-						<li><a href="bains.php#">Profils supérieur et inféreur</a></li>
+						<li><a href="bains.php#">Profils</a></li>
 						<!--<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Entrée et évacuation de l'eau</a></li>

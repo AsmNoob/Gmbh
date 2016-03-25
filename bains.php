@@ -25,6 +25,17 @@
 				</section>
 
 
+
+
+<a id="toggler" onclick="showme('widget', this.id);" href="#">Show Widget</a>
+
+<div id="widget" style="display:none;">
+This is a widget
+</div>
+
+
+
+
 			<!-- Posts -->
 				<section class="wrapper style2"><a name="bains"></a>
 					<div class="container">
@@ -36,16 +47,17 @@
 						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
 						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
 						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
-						<p>
+						<a id="toggler" onclick="showme('dimensions', this.id);" >More Info</a>
+						<p id="dimensions" style="display:none;">
 						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
-						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br></br>
+						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
 						Le choix peut également être influencé par la <strong>capacité en volume d’eau</strong> et l’<strong>espace de mouvement</strong> désiré. 
 						Ces dimensions sont standardisées pour des personnes de 160-185 cm. Pour une hauteur intérieure plus haute vous 
 						pouvez choisir une longueur inférieure. La taille supérieure est appropriée pour des personnes grandes. 
-						Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br></br>
+						Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br>
 						Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. 
 						La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes 
-						assises est de 60-65 cm.</br></br></p>
+						assises est de 60-65 cm.</br></p>
 					</div>
 				</section>
 

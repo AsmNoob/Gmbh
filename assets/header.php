@@ -23,16 +23,16 @@
 				</li>
 				<li><a href="douches.php">Douches</a>
 					<ul>
-						<li><a href="douches.php#">Modèle standard</a></li>
-						<li><a href="douches.php#">Possibilités de modifications</a></li>
+						<li><a href="douches.php#">Modèles</a></li>
+						<li><a href="douches.php#">Modifications</a></li>
 					</ul>
 				</li>
 				<li><a href="tonneaux.php">Tonneaux</a>
 					<ul>
 						<li><a href="tonneaux.php#">Dimensions et forme</a></li>
-						<li><a href="tonneaux.php#">Finition intérieure</a></li>
-						<li><a href="tonneaux.php#">Profils supérieur et inféreur</a></li>
-						<li><a href="tonneaux.php#">Entrée et évacuation de l'eau</a></li>
+						<li><a href="tonneaux.php#">Finitions</a></li>
+						<li><a href="tonneaux.php#">Profils</a></li>
+						<!--<li><a href="tonneaux.php#">Entrée et évacuation de l'eau</a></li>-->
 						<li><a href="tonneaux.php#">Accessoires</a></li>
 					</ul>
 				</li>

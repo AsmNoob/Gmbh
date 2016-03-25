@@ -4,6 +4,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function showme(id, linkid) {
+        var divid = document.getElementById(id);
+        var toggleLink = document.getElementById(linkid);
+        if (divid.style.display == 'block') {
+            toggleLink.innerHTML = 'More Info';
+            divid.style.display = 'none';
+        }
+        else {
+            toggleLink.innerHTML = 'Less Info';
+            divid.style.display = 'block';
+        }
+    }
+
 /*$(".hidden").parent().click(function() {
      $(".hidden").toggle("slow");
 });

@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-$(".hidden").parent().click(function() {
+/*$(".hidden").parent().click(function() {
      $(".hidden").toggle("slow");
 });
 
@@ -20,7 +20,7 @@ $("#moreinfo1").click(function() {
 $('#reference').click( function(){
 	var value = $(this).val();
 	$('#message').val(value);
-  });
+  });*/
 
 // $(function () {
 //   $('#reference').on('click', function () {

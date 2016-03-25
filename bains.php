@@ -26,8 +26,146 @@
 
 
 			<!-- Posts -->
-				<section class="wrapper style1">
+				<section class="wrapper style2"><a name="bains"></a>
 					<div class="container">
+						<header class="major">
+							<a name="bains"></a>
+							<h2>Bains</h2>
+							<p><strong>Dimensions et formes</strong></p>
+						</header>
+						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
+						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
+						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
+						<p>
+						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
+						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br></br>
+						Le choix peut également être influencé par la <strong>capacité en volume d’eau</strong> et l’<strong>espace de mouvement</strong> désiré. 
+						Ces dimensions sont standardisées pour des personnes de 160-185 cm. Pour une hauteur intérieure plus haute vous 
+						pouvez choisir une longueur inférieure. La taille supérieure est appropriée pour des personnes grandes. 
+						Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br></br>
+						Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. 
+						La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes 
+						assises est de 60-65 cm.</br></br></p>
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<p><strong>Baignoire</strong></p>
+						</header>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;135-151-167 cm x 73 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;149 x 90 cm, 161 x 79 cm, 168 x 106 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
+						</p>
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<p><strong>Tonneau</strong></p>
+						</header>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130 x 79 cm, 161 x 79 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
+						</p>
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<p><strong>Personnalisation</strong></p>
+						</header>
+						<p><strong>Comme chacun des produits de Blumenberg GmbH, les baignoires et les tonneaux de bain sont hautement personnalisables.
+						 Si dans les mesures standard vous ne trouvez pas votre bonheur, nous nous ferons un plaisir de dessiner ensemble la forme idéale pour vous.</strong></p>
+						</br>
+						<p>Quelque exemples de formes exceptionnelles :</p>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un  <strong>bain assis</strong> : </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un <strong>bain assis</strong> ou <strong>tonneau de plongeon</strong> :  </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour des <strong>baignoires larges</strong> :  </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre </br></br>
+						</p>
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<p><strong>Profil supérieur et inférieur</strong></p>
+						</header>
+						<p>
+							<strong>Le profil de votre baignoire dépend entre autres de l’aspect désiré et de la hauteur nécessaire. 
+							Ainsi les variations entre un profil plus simple et sobre ou un profil plus découpé et léger vous
+							 permet de davantage adapter le produit à vos besoins.
+							</strong>
+						</p>
+						</br>
+						<p><strong>Profil supérieur</strong></p>
+						<p>Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
+							profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.</p>
+						</br>
+						<p><strong>Profil inérieur</strong></p>
+						<p>Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
+							sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p>
+						</br>
+						
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<p><strong>Positionnement</strong></p>
+						</header>
+						<p>
+							<strong>La baignoire peut théoriquement autant se positionner 
+								complètement indépendamment, que raccordée à un mur ou 
+								dans une niche ou que encastrée dans le sol (même si nous ne 
+								le recommandons pas). La baignoire peut être raccordée sous 
+								n’importe quel angle par n’importe quel endroit dépendant de 
+								l’aménagement de votre pièce d’eau.</strong>
+						</p>
+						<p>Suivant vos esquisses de projet nous pourrons adapter le raccord technique de la baignoire. Il sera donc important de nous communiquer les documents graphiques nécessaires à l’établissement des détails de ces raccords.
+La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité. Un raccord couvert au mur permet d’y installer les techniques et de faciliter le nettoyage et l’entretien de la baignoire.
+</p>
+						</br>
+						
+					</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							
+						</header>
+						</br>
+											</div>
+				</section>
+
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							
+						</header>
+						</br>
+											</div>
+				</section>
+
 						<div class="row">
 							<div>
 								<section class="6u 12u(narrower)" >

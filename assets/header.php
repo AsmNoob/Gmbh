@@ -10,12 +10,15 @@
 				<li>
 					<a href="bains.php">Bains</a>
 					<ul>
-						<li><a href="bains.php#chap">Dimensions et forme</a></li>
+						<li><a href="bains.php#dimensions">Dimensions et forme</a></li>
+						<li><a href="bains.php#baignoire">Baignoire</a></li>
+						<li><a href="bains.php#tonneau">Tonneau</a></li>
 						<li><a href="bains.php#">Profils supérieur et inféreur</a></li>
+						<!--<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Entrée et évacuation de l'eau</a></li>
 						<li><a href="bains.php#">Bain à remous</a></li>
-						<li><a href="bains.php#">Accessoires</a></li>
+						<li><a href="bains.php#">Accessoires</a></li>-->
 					</ul>
 				</li>
 				<li><a href="douches.php">Douches</a>

@@ -1,7 +1,7 @@
 <div id="header" style="display:none">
 
 	<!-- Logo -->
-		<h1><a href="home.php" id="logo">Caca sur mon doigt  <em>GmbH</em></a></h1>
+		<h1><a href="home.php" id="logo">Blumenberg  <em>GmbH</em></a></h1>
 
 	<!-- Nav -->
 		<nav id="nav">

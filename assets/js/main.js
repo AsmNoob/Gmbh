@@ -5,18 +5,17 @@
 */
 
 function showme(id, linkid) {
-        var divid = document.getElementById(id);
-        var toggleLink = document.getElementById(linkid);
-        if (divid.style.display == 'block') {
-            toggleLink.innerHTML = "Plus d'informations";
-            divid.style.display = 'none';
-
-        }
-        else {
-            toggleLink.innerHTML = "Moins d'information";
-            divid.style.display = 'block';
-        }
+    var divid = document.getElementById(id);
+    var toggleLink = document.getElementById(linkid);
+    if (divid.style.display == 'block') {
+        toggleLink.innerHTML = "Information";
+        divid.style.display = 'none';
     }
+    else {
+        toggleLink.innerHTML = "Information";
+        divid.style.display = 'block';
+    }
+}
 
 /*$(".hidden").parent().click(function() {
      $(".hidden").toggle("slow");

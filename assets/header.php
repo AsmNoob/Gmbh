@@ -13,7 +13,7 @@
 						<li><a href="bains.php#dimensions">Dimensions et forme</a></li>
 						<li><a href="bains.php#baignoire">Baignoire</a></li>
 						<li><a href="bains.php#tonneau">Tonneau</a></li>
-						<li><a href="bains.php#">Profils</a></li>
+						<li><a href="bains.php#profil">Profils</a></li>
 						<!--<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Entrée et évacuation de l'eau</a></li>

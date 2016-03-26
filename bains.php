@@ -35,7 +35,7 @@
 						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
 						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
 						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
-						<p><a id="toggler" onclick="showme('dimensions', this.id);" >Plus d'informations</a></p>
+						<p><a style="cursor: pointer" id="toggler" onclick="showme('dimensions', this.id);" >Information</a></p>
 						<p id="dimensions" style="display:none;">
 						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
 						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
@@ -57,11 +57,14 @@
 						</header>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;135-151-167 cm x 73 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;135-151-167 cm x 73 cm
+							</br><img style="height:200px" src="images/Modeles/135x73.jpg"><img style="height:200px" src="images/Modeles/151x73.jpg"><img style="height:200px" src="images/Modeles/167x73.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;149 x 90 cm, 161 x 79 cm, 168 x 106 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;149 x 90 cm, 161 x 79 cm, 168 x 106 cm
+						</br><img style="height:200px" src="images/Modeles/149x90.jpg"><img style="height:200px" src="images/Modeles/161x79.jpg"><img style="height:200px" src="images/Modeles/168x106.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
+						</br><img style="height:270px" src="images/Modeles/153.jpg">
 						</p>
 					<!-- </div>
 				</section>
@@ -74,11 +77,14 @@
 						</header>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm
+							</br><img style="height:200px" src="images/Modeles/100x72.jpg"><img style="height:200px" src="images/Modeles/110x77.jpg"><img style="height:200px" src="images/Modeles/130x79.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130 x 79 cm, 161 x 79 cm</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130 x 79 cm, 161 x 79 cm
+							</br><img style="height:200px" src="images/Modeles/130x79.jpg"><img style="height:200px" src="images/Modeles/161x79.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre</br></br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
+							</br><img style="height:200px" src="images/Modeles/153.jpg"></br>
 						</p>
 					<!-- </div>
 				</section>
@@ -95,9 +101,11 @@
 						<p>Quelque exemples de formes exceptionnelles :</p>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un  <strong>bain assis</strong> : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm</br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm
+							</br><img style="height:200px" src="images/Modeles/119x73.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un <strong>bain assis</strong> ou <strong>tonneau de plongeon</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm</br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm
+							</br><img style="height:200px" src="images/Modeles/122x72.jpg"></br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour des <strong>baignoires larges</strong> :  </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
@@ -110,7 +118,7 @@
 					<div class="container"> -->
 					</br>
 						<header class="major">
-							<p><strong>Profil supérieur et inférieur</strong></p>
+							<p name = "profil"><strong>Profil supérieur et inférieur</strong></p>
 						</header>
 						<p>
 							<strong>Le profil de votre baignoire dépend entre autres de l’aspect désiré et de la hauteur nécessaire. 
@@ -118,8 +126,8 @@
 							 permet de davantage adapter le produit à vos besoins.
 							</strong>
 						</p>
-						</br>
-						<a id="toggler" onclick="showme('profils', this.id);" >Plus d'informations</a>
+						
+						<p><a style="cursor: pointer" id="toggler" onclick="showme('profils', this.id);" >Information</a></p>
 						<p id="profils" style="display:none;"><strong>Profil supérieur</strong></br>
 						Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
 						profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.
@@ -145,7 +153,7 @@
 								n’importe quel angle par n’importe quel endroit dépendant de 
 								l’aménagement de votre pièce d’eau.</strong>
 						</p>
-						<a id="toggler" onclick="showme('position', this.id);" >Plus d'informations</a>
+						<a style="cursor: pointer" id="toggler" onclick="showme('position', this.id);" >Information</a>
 						<p id="position" style="display:none;">Suivant vos esquisses de projet nous pourrons adapter le raccord technique de la baignoire. Il sera donc important de nous communiquer les documents graphiques nécessaires à l’établissement des détails de ces raccords.
 La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité. Un raccord couvert au mur permet d’y installer les techniques et de faciliter le nettoyage et l’entretien de la baignoire.
 </p>
@@ -172,12 +180,11 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 					</div>
 				</section>
 
-						<div class="row">
+<!-- 						<div class="row">
 							<div>
 								<section class="6u 12u(narrower)" >
 									<div class="box post">
 										<div class="image left" ><img src="images/Baignoires/BW_L_seitlich_300_Pixel.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px" >
 											<h3>Baignoire en bois de mélèze massif</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -213,7 +220,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left" ><img src="images/Baignoires/WW_K_151_a.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:550px">
 											<h3>Whirlpool bois kambala solide</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -231,7 +237,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/essetika_03.jpg" style="width:330px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:300px">
 											<h3>Bain / remous de Kambala</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -249,7 +254,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_L_151x72_Jungbauer_2.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Casserole/bain</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -267,7 +271,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_K_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Bain de Kambala</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -285,7 +288,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_K_151.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Bain de Kambala</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -303,7 +305,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_L_151x73_USA.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -321,7 +322,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_Benecke.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -339,7 +339,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/FS_HW_wasser_profil.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -357,7 +356,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/Kt_demontierbarer_Sockel_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -375,7 +373,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BWL151x73_73x60_Hunziker.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -393,7 +390,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/soltau.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -411,7 +407,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_seitlich.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -429,7 +424,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_L_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -447,7 +441,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_K_125x110x65_c.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -465,7 +458,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_Tablett.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -483,7 +475,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_L_135_Heil_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:350px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -501,7 +492,6 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 								<section class="6u 12u(narrower)">
 									<div class="box post">
 										<div class="image left"><img src="images/Baignoires/BW_L_161x79x80_70_80.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
 										<div class="inner" style="margin-left:250px;width:500px">
 											<h3>Baignoire en bois de mélèze</h3>
 											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
@@ -518,30 +508,7 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 
 				
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<!-- test -->
+			
 			<section class="wrapper style1" >
 					<div class="container">
 						<div class="row">
@@ -586,13 +553,13 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 						</div>
 					</div>
 				</section>
-
+ -->
 
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
 						<div class="row">
-							<section class="3u 6u(narrower) 12u$(mobilep)">
+							<!-- <section class="3u 6u(narrower) 12u$(mobilep)">
 								<h3>Links to Stuff</h3>
 								<ul class="links">
 									<li><a href="#">Mattis et quis rutrum</a></li>
@@ -640,7 +607,7 @@ La distance minimale de raccord au mur est de 3 cm afin d’assurer sa solidité
 										</div>
 									</div>
 								</form>
-							</section>
+							</section> -->
 						</div>
 					</div>
 

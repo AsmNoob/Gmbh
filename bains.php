@@ -23,19 +23,18 @@
 						<!-- <a href="#" class="button">information</a> -->
 					</header>
 				</section>
-
+				<a name="dimension"></a>
 			<!-- Posts -->
-				<section class="wrapper style2"><a name="bains"></a>
+				<section class="wrapper style2">
 					<div class="container">
 						<header class="major">
-							<a name="bains"></a>
 							<h2>Bains</h2>
 							<p><strong>Dimensions et formes</strong></p>
 						</header>
 						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
 						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
 						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
-						<p><a style="cursor: pointer" id="toggler" onclick="showme('dimensions', this.id);" >Information</a></p>
+						<p><a style="cursor: pointer" id="toggler" onclick="showme('dimensions', this.id);" >Information</a><a name = "baignoire"></a></p>
 						<p id="dimensions" style="display:none;">
 						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
 						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
@@ -53,7 +52,7 @@
 					<div class="container"> -->
 					</br>
 						<header class="major">
-							<p name = "baignoire"><strong>Baignoire</strong></p>
+							<p><strong>Baignoire</strong></p>
 						</header>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
@@ -66,11 +65,13 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
 						</br><img style="height:270px" src="images/Modeles/153.jpg">
 						</p>
+						
 					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
 					<div class="container"> -->
+						<a name="tonneau"></a>
 					</br>
 						<header class="major">
 							<p><strong>Tonneau</strong></p>
@@ -86,6 +87,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
 							</br><img style="height:200px" src="images/Modeles/153.jpg"></br>
 						</p>
+						<a name="personnalisation"></a>
 					<!-- </div>
 				</section>
 
@@ -111,6 +113,7 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre 
 						</p>
+							<a name="profil"></a>
 					<!-- </div>
 				</section>
 
@@ -118,7 +121,7 @@
 					<div class="container"> -->
 					</br>
 						<header class="major">
-							<p name = "profil"><strong>Profil supérieur et inférieur</strong></p>
+							<p><strong>Profil supérieur et inférieur</strong></p>
 						</header>
 						<p>
 							<strong>Le profil de votre baignoire dépend entre autres de l’aspect désiré et de la hauteur nécessaire. 
@@ -134,8 +137,9 @@
 						</br>
 						<strong>Profil inérieur</strong></br>
 						Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
-							sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p>
+							sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p><a name="positionnement"></a>
 						
+							
 					<!-- </div>
 				</section>
 

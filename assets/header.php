@@ -10,10 +10,12 @@
 				<li>
 					<a href="bains.php">Bains</a>
 					<ul>
-						<li><a href="bains.php#dimensions">Dimensions et forme</a></li>
+						<li><a href="bains.php#dimension">Dimensions et forme</a></li>
 						<li><a href="bains.php#baignoire">Baignoire</a></li>
 						<li><a href="bains.php#tonneau">Tonneau</a></li>
+						<li><a href="bains.php#personnalisation">Personnalisation</a></li>
 						<li><a href="bains.php#profil">Profils</a></li>
+						<li><a href="bains.php#positionnement">Positionnement</a></li>
 						<!--<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Raccord au mur</a></li>
 						<li><a href="bains.php#">Entrée et évacuation de l'eau</a></li>
@@ -21,7 +23,7 @@
 						<li><a href="bains.php#">Accessoires</a></li>-->
 					</ul>
 				</li>
-				<li><a href="douches.php">Douches</a>
+				<!-- <li><a href="douches.php">Douches</a>
 					<ul>
 						<li><a href="douches.php#">Modèles</a></li>
 						<li><a href="douches.php#">Modifications</a></li>
@@ -32,7 +34,6 @@
 						<li><a href="tonneaux.php#">Dimensions et forme</a></li>
 						<li><a href="tonneaux.php#">Finitions</a></li>
 						<li><a href="tonneaux.php#">Profils</a></li>
-						<!--<li><a href="tonneaux.php#">Entrée et évacuation de l'eau</a></li>-->
 						<li><a href="tonneaux.php#">Accessoires</a></li>
 					</ul>
 				</li>
@@ -57,7 +58,7 @@
 						<li><a href="applications.php#">Seaux</a></li>
 						<li><a href="applications.php#">Grandes dimensions</a></li>
 					</ul>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
 

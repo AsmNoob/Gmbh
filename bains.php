@@ -135,7 +135,7 @@
 						Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
 						profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.
 						</br>
-						<strong>Profil inérieur</strong></br>
+						<strong>Profil inférieur</strong></br>
 						Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
 							sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p><a name="positionnement"></a>
 						

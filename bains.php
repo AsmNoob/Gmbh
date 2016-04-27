@@ -31,52 +31,36 @@
 							<h2>Bains</h2>
 							<p><strong>Dimensions et formes</strong></p>
 						</header>
-						<p><strong>Dépendant des spécifications désirées, le type de produit varie.
+						<p><img src="images/Baignoires/BW_Benecke.jpg" align="right" valign="middle" vspace="5" hspace="5" style="margin-top:-80px"/><strong>Dépendant des spécifications désirées, le type de produit varie.
 						En fonction de de l’espace disponible, la capacité en nombre de personnes requise 
 						et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
-						<p><a style="cursor: pointer" id="toggler" onclick="showme('dimensions', this.id);" >Information</a><a name = "baignoire"></a></p>
-						<p id="dimensions" style="display:none;">
-						D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
-						Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
-						Le choix peut également être influencé par la <strong>capacité en volume d’eau</strong> et l’<strong>espace de mouvement</strong> désiré. 
-						Ces dimensions sont standardisées pour des personnes de 160-185 cm. Pour une hauteur intérieure plus haute vous 
-						pouvez choisir une longueur inférieure. La taille supérieure est appropriée pour des personnes grandes. 
-						Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br>
-						Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. 
-						La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes 
-						assises est de 60-65 cm.</p>
-					<!-- </div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container"> -->
-					</br>
-						<header class="major">
-							<p><strong>Baignoire</strong></p>
-						</header>
-						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;135-151-167 cm x 73 cm
-							</br><img style="height:200px" src="images/Modeles/135x73.jpg"><img style="height:200px" src="images/Modeles/151x73.jpg"><img style="height:200px" src="images/Modeles/167x73.jpg"></br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;149 x 90 cm, 161 x 79 cm, 168 x 106 cm
-						</br><img style="height:200px" src="images/Modeles/149x90.jpg"><img style="height:200px" src="images/Modeles/161x79.jpg"><img style="height:200px" src="images/Modeles/168x106.jpg"></br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
-						</br><img style="height:270px" src="images/Modeles/153.jpg">
-						</p>
-						
-					<!-- </div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container"> -->
-						<a name="tonneau"></a>
-					</br>
-						<header class="major">
-							<p><strong>Tonneau</strong></p>
-						</header>
-						<p>
+						<p><a style="cursor: pointer" id="toggler" onclick="showme('dimensions', this.id);" >Information</a></p>
+						<div id="dimensions" style="display:none;">
+							<p><img src="images/Baignoires/BW_Benecke.jpg" align="right" valign="middle" vspace="5" hspace="5" style="margin-top:-80px"/>D’une hauteur de paroi intérieure de <strong>42,5</strong> à <strong>52,5</strong> cm nous parlons d’une <strong>baignoire</strong>. 
+							Pour une hauteur intérieure de <strong>82,5</strong> cm nous parlons de <strong>tonneaux de bain</strong>. </br>
+							Le choix peut également être influencé par la <strong>capacité en volume d’eau</strong> et l’<strong>espace de mouvement</strong> désiré. 
+							Ces dimensions sont standardisées pour des personnes de 160-185 cm. Pour une hauteur intérieure plus haute vous 
+							pouvez choisir une longueur inférieure. La taille supérieure est appropriée pour des personnes grandes. 
+							Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.</br>
+							Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. 
+							La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes 
+							assises est de 60-65 cm.</p>
+							</br>
+							<p><a style="cursor: pointer" id="toggler" onclick="showme('exemple_baignoire', this.id);" ><strong>Exemples de baignoires</strong></a></p>
+							<p id="exemple_baignoire" style="display:none;">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;135-151-167 cm x 73 cm
+								</br><img style="height:200px" src="images/Modeles/135x73.jpg"><img style="height:200px" src="images/Modeles/151x73.jpg"><img style="height:200px" src="images/Modeles/167x73.jpg"></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>deux</strong> personnes : </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;149 x 90 cm, 161 x 79 cm, 168 x 106 cm
+							</br><img style="height:200px" src="images/Modeles/149x90.jpg"><img style="height:200px" src="images/Modeles/161x79.jpg"><img style="height:200px" src="images/Modeles/168x106.jpg"></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
+							</br><img style="height:270px" src="images/Modeles/153.jpg">
+							</p>
+							</br>
+							<p><a style="cursor: pointer" id="toggler" onclick="showme('exemple_baignoire', this.id);" ><strong>Exemples de baignoires</strong></a></p>
+							<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm
 							</br><img style="height:200px" src="images/Modeles/100x72.jpg"><img style="height:200px" src="images/Modeles/110x77.jpg"><img style="height:200px" src="images/Modeles/130x79.jpg"></br>
@@ -86,13 +70,11 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>trois</strong> personnes : </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre
 							</br><img style="height:200px" src="images/Modeles/153.jpg"></br>
-						</p>
+							</p>
+						</div>
+							
 						<a name="personnalisation"></a>
-					<!-- </div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container"> -->
+					</br>
 					</br>
 						<header class="major">
 							<p><strong>Personnalisation</strong></p>
@@ -100,25 +82,28 @@
 						<p><strong>Comme chacun des produits de Blumenberg GmbH, les baignoires et les tonneaux de bain sont hautement personnalisables.
 						 Si dans les mesures standard vous ne trouvez pas votre bonheur, nous nous ferons un plaisir de dessiner ensemble la forme idéale pour vous.</strong></p>
 						</br>
-						<p>Quelque exemples de formes exceptionnelles :</p>
-						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un  <strong>bain assis</strong> : </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm
-							</br><img style="height:200px" src="images/Modeles/119x73.jpg"></br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un <strong>bain assis</strong> ou <strong>tonneau de plongeon</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm
-							</br><img style="height:200px" src="images/Modeles/122x72.jpg"></br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour des <strong>baignoires larges</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre 
-						</p>
+						<p><a style="cursor: pointer" id="toggler" onclick="showme('perso', this.id);" >Information</a></p>
+						<div id="perso" style="display:none;"><p>Quelque exemples de formes exceptionnelles :</p>
+							<p>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un  <strong>bain assis</strong> : </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119 x 73 cm
+								</br><img style="height:200px" src="images/Modeles/119x73.jpg"></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour un <strong>bain assis</strong> ou <strong>tonneau de plongeon</strong> :  </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;122 x 72 cm
+								</br><img style="height:200px" src="images/Modeles/122x72.jpg"></br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour des <strong>baignoires larges</strong> :  </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;165 x 90 cm et 199 x 106 cm </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; pour des <strong>petits tonneaux</strong> :  </br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre 
+							</p>
+						</div>
 							<a name="profil"></a>
 					<!-- </div>
 				</section>
 
 				<section class="wrapper style2">
 					<div class="container"> -->
+					</br>
 					</br>
 						<header class="major">
 							<p><strong>Profil supérieur et inférieur</strong></p>
@@ -145,6 +130,7 @@
 
 				<section class="wrapper style2">
 					<div class="container"> -->
+					</br>
 					</br>
 						<header class="major">
 							<p><strong>Positionnement</strong></p>

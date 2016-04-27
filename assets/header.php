@@ -11,8 +11,8 @@
 					<a href="bains.php">Bains</a>
 					<ul>
 						<li><a href="bains.php#dimension">Dimensions et forme</a></li>
-						<li><a href="bains.php#baignoire">Baignoire</a></li>
-						<li><a href="bains.php#tonneau">Tonneau</a></li>
+						<!-- <li><a href="bains.php#baignoire">Baignoire</a></li>
+						<li><a href="bains.php#tonneau">Tonneau</a></li> -->
 						<li><a href="bains.php#personnalisation">Personnalisation</a></li>
 						<li><a href="bains.php#profil">Profils</a></li>
 						<li><a href="bains.php#positionnement">Positionnement</a></li>

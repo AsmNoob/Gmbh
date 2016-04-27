@@ -59,8 +59,8 @@
 							</br><img style="height:270px" src="images/Modeles/153.jpg">
 							</p>
 							</br>
-							<p><a style="cursor: pointer" id="toggler" onclick="showme('exemple_baignoire', this.id);" ><strong>Exemples de baignoires</strong></a></p>
-							<p>
+							<p><a style="cursor: pointer" id="toggler" onclick="showme('exemple_tonneaux', this.id);" ><strong>Exemples de tonneaux</strong></a></p>
+							<p id="exemple_tonneaux" style="display:none;">
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour <strong>une</strong> personne : </br>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm
 							</br><img style="height:200px" src="images/Modeles/100x72.jpg"><img style="height:200px" src="images/Modeles/110x77.jpg"><img style="height:200px" src="images/Modeles/130x79.jpg"></br>

@@ -1,531 +1,75 @@
+<?php  session_start();?>
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Blumenberg GmbH</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-		<div id="page-wrapper">
+<head>
+	<title>Blumenberg GmbH</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+	<div id="page-wrapper">
 
-			<!-- Header -->
-				<?php include("./assets/header.php"); ?>
+		<!-- Header -->
+		<?php include("./assets/header.php"); ?>
 
-			<!-- Banner -->
-				<section id="banner" style="background-image: url(images/banners/banner_catalogue.jpg);">
-					<header>
-						<h2>Blumenberg .<em> Baignoires</em></h2>
-						<!-- <a href="#" class="button">information</a> -->
-					</header>
-				</section>
+		<!-- Banner -->
+		<section id="banner" style="background-image: url(images/banners/banner_catalogue.jpg);">
+			<header>
+				<h2>Blumenberg .<em> Cabines de douche</em></h2>
+				<!-- <a href="#" class="button">information</a> -->
+			</header>
+		</section>
+		<a name="modele"></a>
+		<!-- Posts -->
+		<section class="wrapper style2">
+			<div class="container">
+				<header class="major">
+					<h2>Douches</h2>
+					Fabriquées selon le même procédé que nos baignoires, la douche présente les mêmes avantages que tous nos produits. Il est dès lors possible de l’adapter selon vos envies. Sa forme ronde permet à tout enthousiaste de la douche de bouger sans aucune restriction.<br>
+				</header>
+				<header class="major">
+					<p><strong>Modèle standard</strong></p>
+				</header>
+				<p><strong>Base sur une forme quasi-circulaire et équipé de portes en verre, elle intègre la quincaillerie que vous désirez. Une marche extérieure permet de rentrer et sortir de votre douche facilement. Comme nos autres produits, le fond de la douche est légèrement surélevé par rapport au sol.</strong></p>
+				<p><a style="cursor: pointer" id="toggler" onclick="showme('modele', this.id);" >Information</a></p>
+				<p id="modele" style="display:none;">
+					<strong>Dimensions</strong><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Dimensions standard : <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 116 cm x 97 cm x 40/220 cm
 
+					<br><strong>Portes</strong><br>
+					Les portes rondes en verre sans châssis sont parfaitement étanches. N’étant pas en contact avec le bord inférieur de la douche elles laissent l’eau ruisseler vers le bas sans aucun risque de fuite.
+					
+					<br><strong>Disposition</strong><br>
+					Evidemment votre douche peut être placée, comme nos autres produits, indépendamment dans la pièce, créant une sensation d’espace.
+				</p>
 
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)" >
-									<div class="box post">
-										<div class="image left" ><img src="images/Baignoires/BW_L_seitlich_300_Pixel.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px" >
-											<h3>Baignoire en bois de mélèze massif</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							<button id="reference" value="trolol">Add reference to Mail</button>
-						</div>
-						<p class="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p class="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div href="#" class="image left"><img src="images/Baignoires/BW_K_167x73x70_Conrad.jpg" alt=""/></div>
-										<div class="inner" style="margin-left:350px;width:600px">
-											<h3>Bain de Kamabala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-
-									</div>
-								</section>
-							</div>
-						</div>
-						<p class="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p class="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left" ><img src="images/Baignoires/WW_K_151_a.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:550px">
-											<h3>Whirlpool bois kambala solide</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/essetika_03.jpg" style="width:330px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:300px">
-											<h3>Bain / remous de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x72_Jungbauer_2.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Casserole/bain</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Bain de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_151.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Bain de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x73_USA.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_Benecke.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/FS_HW_wasser_profil.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/Kt_demontierbarer_Sockel_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWL151x73_73x60_Hunziker.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/soltau.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_seitlich.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_125x110x65_c.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_Tablett.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_135_Heil_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_161x79x80_70_80.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:250px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-					</div>
-					<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-					<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-				</section>
-
-				
+				<a name="modification"></a>
+			</br>
+		</br>
+		<header class="major">
+			<p><strong>Possibilités de modifications</strong></p>
+		</header>
+		<p><strong>Il est possible de combiner douche et baignoire pour créer un bain-douche. Il est aussi possible de modifier les dimensions et la forme de la douche quelque peu. </strong></p>
+		<p><a style="cursor: pointer" id="toggler" onclick="showme('modif', this.id);" >Information</a></p>
+		<p id="modif" style="display:none;">Cependant, les modifications sont limitées par la technique de fabrication. La forme du sol est cependant plus libre. Pour le bain-douche on peut, en combinant effectivement deux produits, avoir toutes les possibilités des deux.</p>
+	</div>
+</section>
 
 
+</div>
 
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<!-- test -->
-
-			<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_L_seitlich_300_Pixel.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Baignoire en bois de mélèze massif</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_K_167x73x70_Conrad.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Bain de Kambala</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/WW_K_151_a.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Whirlpool en Kambala solide</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="3u 6u(narrower) 12u$(mobilep)">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u$(narrower) 12u$(mobilep)">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul>
-							</section>
-							<section class="6u 12u(narrower)">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row 50%">
-										<div class="6u 12u(mobilep)">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="6u 12u(mobilep)">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Blumenberg GmbH. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>

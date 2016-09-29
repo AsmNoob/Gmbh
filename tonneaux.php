@@ -1,531 +1,156 @@
+<?php  session_start();?>
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Blumenberg GmbH</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-		<div id="page-wrapper">
+<head>
+	<title>Blumenberg GmbH</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+</head>
+<body>
+	<div id="page-wrapper">
 
-			<!-- Header -->
-				<?php include("./assets/header.php"); ?>
+		<!-- Header -->
+		<?php include("./assets/header.php"); ?>
 
-			<!-- Banner -->
-				<section id="banner" style="background-image: url(images/banners/banner_catalogue.jpg);">
-					<header>
-						<h2>Blumenberg .<em> Baignoires</em></h2>
-						<!-- <a href="#" class="button">information</a> -->
-					</header>
-				</section>
+		<!-- Banner -->
+		<section id="banner" style="background-image: url(images/banners/banner_catalogue.jpg);">
+			<header>
+				<h2>Blumenberg .<em> Tonneaux de plongeon</em></h2>
+				<!-- <a href="#" class="button">information</a> -->
+			</header>
+		</section>
 
+		<a name="dimension"></a>
+		<!-- Posts -->
+		<section class="wrapper style2">
+			<div class="container">
+				<header class="major">
+					<h2>Tonneaux de plongeon</h2>
+					Produit indispensable pour l’expérience de sauna complète il peut également être utilisé comme bain profond. Rien de tel pour s’immerger complètement dans l’eau que la forme et la hauteur de nos tonneaux.
+				</header>
+				<header class="major">
+					<p><strong>Dimensions et forme</strong></p>
+				</header>
+				<p><strong>Dépendant des spécifications désirées, le type de produit varie. En fonction de de l’espace disponible, la capacité en nombre de personnes requise et la taille des utilisateurs nous disposons d’un nombre de modèles de départ.</strong></p>
+				<p><a style="cursor: pointer" id="toggler" onclick="showme('dim', this.id);" >Information</a></p>
+				<p id="dim" style="display:none;">D’une hauteur de paroi intérieure de 42,5 à 52,5 cm nous parlons d’une baignoire. Pour une hauteur intérieure de 82,5 cm nous parlons de tonneaux de bain. 
+					<br>Le choix peut également être influencé par la capacité en volume d’eau et l’espace de mouvement désiré. Ces dimensions sont standardisées pour des personnes de 160-185 cm. Pour une hauteur intérieure plus haute vous pouvez choisir une longueur inférieure. La taille supérieure est appropriée pour des personnes grandes. Les dimensions standard en plan sont indiquées ci-dessous selon le type désiré.
+					<br>Les volumes capables intérieurs sur les esquisses sont indiqués par 10 cm de hauteur. La hauteur standard d’eau nécessaire pour des personnes couchées est de 30-35 cm, celle pour des personnes assises est de 60-65 cm.
+					<br>
+					<br><strong>Tonneau</strong><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour une personne : <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 x 72 cm, 110 x 77 cm, 130 x 79 cm<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour deux  personnes : <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130 x 79 cm, 161 x 79 cm<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Pour quatre à six personnes : <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 153 cm de diamètre<br>
+					<br><strong>Personnalisation</strong><br>
+					Comme chacun des produits de Blumenberg GmbH, les baignoires et les tonneaux de bain sont hautement personnalisables. Si dans les mesures standard vous ne trouvez pas votre bonheur, nous nous ferons un plaisir de dessiner ensemble la forme idéale pour vous.
+					Un exemple de formes exceptionnelles :
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp;&nbsp; pour des petits tonneaux : 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rond, 82 ou 96 cm de diamètre 
 
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)" >
-									<div class="box post">
-										<div class="image left" ><img src="images/Baignoires/BW_L_seitlich_300_Pixel.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px" >
-											<h3>Baignoire en bois de mélèze massif</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							<button id="reference" value="trolol">Add reference to Mail</button>
-						</div>
-						<p class="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p class="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
+				</p>
 
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div href="#" class="image left"><img src="images/Baignoires/BW_K_167x73x70_Conrad.jpg" alt=""/></div>
-										<div class="inner" style="margin-left:350px;width:600px">
-											<h3>Bain de Kamabala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
+				<a name="finition"></a><br>
+			</br>
+		</br>
+		<header class="major">
+			<p><strong>Finition intérieure</strong></p>
+		</header>
+		<p><strong>Les tonneaux Blumenberg sont spécialement conçus pour une utilisation intensive. Nous employons donc les techniques qui rendent le produit le plus résistant possible et lui donnent une durée de vie exceptionnelle</strong></p>
+		<br><strong>Bois</strong><br>
+		Notre scellage hygiénique est spécialement développé pour le milieu très exigeant du Sauna-Wellness. Il respecte toutes les normes d’hygiène et garantit un entretien facile. (Très Bon selon la DIN 25415) Cette finition permet également de voir le bois dans toute sa splendeur à l’intérieur et l’extérieur du produit.
+		<br><br><strong>Synthétique</strong><br>
+		Alternativement nous proposons également des insertions en PE-Sanitaire qui se rajoutent dans le modèle 112 cm x 79 cm x 101 cm. Toutes les techniques sont intégrées dans cette insertion. Elle permet également d’accommoder un système de remplissage automatique, gardant le niveau de l’eau à la hauteur désirée.<br>
+	</p>
+	<a name="profil"></a><br>
+	<br>
+	<br>
+	<header class="major">
+		<p><strong>Profil supérieur et inférieur</strong></p>
+	</header>
+	<p><strong>Le profil de votre baignoire dépend entre autres de l’aspect désiré et de la hauteur nécessaire. Ainsi les variations entre un profil plus simple et sobre ou un profil plus découpé et léger vous permet davantage d’adapter le produit à vos besoins.</strong></p>
 
-									</div>
-								</section>
-							</div>
-						</div>
-						<p class="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p class="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
+	<strong>Profil supérieur</strong><br>
+	Nos tonneaux ont toujours un profil supérieur non découpé, étant donné qu’on s’y tient debout ou assis à la verticale.
+	<br><br><strong>Profil inférieur</strong><br>
+	Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe sera toujours pratiquée dans le bas de du tonneau dans la face cachée pour les tuyauteries. 
 
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left" ><img src="images/Baignoires/WW_K_151_a.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:550px">
-											<h3>Whirlpool bois kambala solide</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
+	<a name="entreeEtEvacuation"></a>
+	<br>
+	<br>
+	<header class="major">
+		<p><strong>Entrée et évacuation de l’eau</strong></p>
+	</header>
+	<p><strong>La gestion de l’eau est intégrée systématiquement à votre produit afin d’assurer la meilleure finition possible. Cependant il est possible de choisir parmi différentes options en fonction de votre projet.</strong></p>
+	<p><a style="cursor: pointer" id="toggler" onclick="showme('entree', this.id);" >Information</a></p>
+	<p id="entree" style="display:none;">
+		<strong>Entrée</strong><br>
+		Il est inhabituel d’avoir une entrée d’eau fixe pour les tonneaux de plongeon, cependant les mêmes principes s’appliquent qu’aux baignoires :
+		L’entrée d’eau se fait habituellement indépendamment de la baignoire sur le raccord au mur ou de manière complètement autonome. Nous vous recommandons de commander indépendamment votre quincaillerie auprès de votre fournisseur sanitaire. Nous aurons besoin des spécifications techniques du produit afin de l’intégrer au mieux dans la finition. Nous vous conseillons un robinet à bec rétractable et tuyau flexible pour la facilité de nettoyage du tonneau ou de la baignoire. Le positionnement préférable pour le robinet est au milieu du côté long. Pour l’option bain à remous une vanne à bille est installée dans la partie cachée de la baignoire pour réguler l’apport principal. Pour les options supplémentaires par rapport au bain à remous, voir le paragraphe dédié.
 
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/essetika_03.jpg" style="width:330px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:300px">
-											<h3>Bain / remous de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x72_Jungbauer_2.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Casserole/bain</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Bain de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_151.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Bain de Kambala</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x73_USA.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_Benecke.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/FS_HW_wasser_profil.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/Kt_demontierbarer_Sockel_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWL151x73_73x60_Hunziker.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/soltau.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_seitlich.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_151x73x70_80.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_K_125x110x65_c.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BWK168_Stufe_Tablett.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_135_Heil_1.jpg" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:350px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-						<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-						<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-
-						<div class="row">
-							<div>
-								<section class="6u 12u(narrower)">
-									<div class="box post">
-										<div class="image left"><img src="images/Baignoires/BW_L_161x79x80_70_80.jpg" style="width:320px" alt=""/></div>
-										<!-- <div class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px"/></div> -->
-										<div class="inner" style="margin-left:250px;width:500px">
-											<h3>Baignoire en bois de mélèze</h3>
-											<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-										</div>
-									</div>
-								</section>
-							</div>
-							
-						</div>
-					</div>
-					<p id="moreinfo" style="color:blue;text-decoration:underline;cursor: pointer" alt="" >More Information ...</p>
-					<p id="hidden" hidden>HERE WELL PUT THE EXTRA INFORMATION</p>
-				</section>
-
-				
+		<br><br><strong>Evacuation</strong><br>
+		L’évacuation de l’eau se fait par défaut intégré dans le sol de la baignoire, il est normalement connecté à un tuyau de diamètre 1¼" ou 1½". Il vous est également possible d’intégrer un trop-plein dans la paroi de votre produit. Cette évacuation peut être extérieure ou intérieure au tonneau, et il est également possible de faire l’évacuation extérieure en laiton chromé pour un meilleur aspect visuel. Toute la tuyauterie est ordinairement rigide, mais une évacuation flexible peut également être accommodée.
+	</p>
+	<a name="accessoires"></a>
+	<br>
+	<br>
+	<header class="major">
+		<p><strong>Accessoires intérieurs et extérieurs</strong></p>
+	</header>
+	<p><strong>CA FAIT BIZARRE PAR RAPPORT AU RESTE DE LA STRUCTURE DE NE PAS METTRE DE TEXTE ICI</strong></p>
+	<p><a style="cursor: pointer" id="toggler" onclick="showme('accessoire', this.id);" >Information</a></p>
+	<p id="accessoire" style="display:none;">
+		<strong>Marches/Echelles</strong><br>
+		Afin de rentrer et sortir plus facilement dans le tonneau, nous proposons un bloc de marches ou une échelle assortie à votre produit. La dernière marche monte jusqu’à une hauteur de 50 cm sous le bord, vos permettant de l’enjamber et rentrer dans le tonneau. La largeur et profondeur totale du bloc escalier est de également 50 cm. L’échelle est plus économe en place par rapport à l’escalier. A l’intérieur du produit se trouve une marche intégrée afin de faciliter l’entrée dans l’eau.
+		<br><br><strong>Assises</strong><br>
+		Il est possible d’installer une ou plusieurs assises en bois à l’intérieur de nos produits les plus hauts, afin de permettre plus de confort. Elles s’avancent entre 20 et 32 cm dans la baignoire. Dans le cas de plusieurs assises, elles sont normalement montées à des hauteurs différentes afin d’accommoder des personnes de taille différente.
+		<br><br><strong>Couvercle</strong><br>
+		Afin de fermer vos tonneaux lorsqu’ils ne sont pas utilisés nous proposons également des couvercles en bois massif et en contre-plaqué.  
+	</p>
 
 
 
+</div>
+</section>
+
+<br><br><br><br><br>
 
 
+<!-- Footer -->
+<div id="footer">
+	<!-- Icons -->
+	<ul class="icons">
+		<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+		<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+	</ul>
 
+	<!-- Copyright -->
+	<div class="copyright">
+		<ul class="menu">
+			<li>&copy; Blumenberg GmbH. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</div>
 
+</div>
 
+</div>
 
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<!-- test -->
-
-			<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_L_seitlich_300_Pixel.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Baignoire en bois de mélèze massif</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_L_von_oben_300_pixel.jpg" alt="" style="height:230px" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/BW_K_167x73x70_Conrad.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Bain de Kambala</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="6u 12u(narrower)">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/Baignoires/WW_K_151_a.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>Whirlpool en Kambala solide</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="3u 6u(narrower) 12u$(mobilep)">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u$(narrower) 12u$(mobilep)">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul>
-							</section>
-							<section class="6u 12u(narrower)">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row 50%">
-										<div class="6u 12u(mobilep)">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="6u 12u(mobilep)">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="12u">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Blumenberg GmbH. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>

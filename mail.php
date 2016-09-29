@@ -11,7 +11,7 @@ if (empty($name) || empty($email)) {
 	exit;
 }
 
-$my_mail = 'C4t4l4nsh0oter@live.be';
+$my_mail = 'super-naheulbeuk@hotmail.com';
 $email_subject = "Contact form submission: $name";
  
 $email_body = "You have received a new message. ".

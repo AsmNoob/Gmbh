@@ -36,17 +36,28 @@ session_start();
 					<h2>Les matériaux</h2>
 				</br>
 				<a name="bois"></a><br><br>
-				<p><strong>Bois</strong></p>
+				<form>
+					<input type="text" value="bois" style="display:none;">
+					<input title='Pour ajouter ce élément à vos préférences,
+il vous suffit de cliquer sur ce titre.' style="font-size:16pt;font-weight:600;background-image:none;color:#999;background-color:transparent;border:0px" type="submit" value="Bois">
+				</form>
+				<p alt="more info"><strong>Bois</strong></p>
 			</header>
-			<p><strong>Nous utilisons principalement du bois de Kambala et de mélèze pour fabriquer nos produits. Ces deux matériaux montrent une grande résistance. Le Kambala est quelque peu plus foncé et résistant que le mélèze, et il a aussi une structure plus régulière. Autant le Kambala principalement originaire du Ghana et le mélèze d’Allemagne sont produits durablement. Pour nos produits particulièrement grands (jusqu’à Ø 250 cm) nous utilisons complémentairement du Western Red Cedar ou de l’Acajou à cause de leur faible coefficient de dilatation.</strong></p>
+			<p><strong>Principalement le bois de Kambala et de mélèze est utilisépour fabriquer nos produits. Ces deux matériaux montrent une grande résistance. Le Kambala est quelque peu plus foncé et résistant que le mélèze, et il a aussi une structure plus régulière. Autant le Kambala principalement originaire du Ghana et le mélèze d’Allemagne sont produits durablement. Pour nos produits particulièrement grands (jusqu’à Ø 250 cm) nous utilisons complémentairement du Western Red Cedar ou de l’Acajou à cause de leur faible coefficient de dilatation.</strong></p>
 			<a name="protec"></a><br>
 			<br>
 			<header class="major">
 				<p><strong>Protection</strong></p>
 			</header>
 			<p><strong>Par l’utilisation de scellage hygiénique imperméable et bandes d’acier reserrables nous tonneaux sont extrêmement faciles d’entretien et étanche de manière permanente. Vous pouvez utiliser n’importe quel produit de nettoyage habituel pour l’entretien de nos produits.<br>
-				Par variations de teneur en humidité minime dans le bois, nos produits ont en principe une durée de vie illimitée. A part le scellage hygiénique imperméable nous vous proposons également des surfaces traitées avec une huile-cire dure végétale naturelle à aspect satiné.
-			</strong></p>
+			Par variations de teneur en humidité minime dans le bois, nos produits ont en principe une durée de vie illimitée.</strong></p><br>
+			<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('protection', this.id);" ><strong>En savoir plus</strong></a></p>
+			<p id="protection" style="display:none;">
+
+			 A part le scellage hygiénique imperméable nous vous proposons également des surfaces traitées avec une huile-cire dure végétale naturelle à aspect satiné. Cette finition naturelle demande cependant plus d’entretien.<br>
+			Pour les applications extérieures il est nécessaire d’appliquer une finition résistante au rayonnement UV (pour plus de détails voir la partie Extérieur).<br>
+			Pour ceux et celles qui préfèrent l’aspect traditionnel des produits Blumenberg, pratiqué depuis les années ’80 : il existe toujours la finition opaque bleue à l’intérieur et en bois naturel flammé à l’extérieur.
+			
 			<a name="acier"></a><br>
 		</br>
 		<header class="major">
@@ -58,13 +69,13 @@ session_start();
 			<div class="container">
 				<div class="row">
 					<section class="6u 12u(narrower)">
-						<h3>Get In Touch</h3>
+						<h3>Nous Contacter</h3>
 						<form method="post" action="mail.php">
 							<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
 							<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>
 							<label for="message"><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></label>
 							<label><input type="submit" class="button alt" value="Send Message" /></label>
-							
+
 						</form> 
 					</section>
 				</div>
@@ -72,11 +83,8 @@ session_start();
 
 			<!-- Icons -->
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
 				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 			</ul>
 
 			<!-- Copyright -->
@@ -90,13 +98,15 @@ session_start();
 
 	</div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>

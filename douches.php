@@ -35,7 +35,7 @@
 					<p><strong>Modèle standard</strong></p>
 				</header>
 				<p><strong>Base sur une forme quasi-circulaire et équipé de portes en verre, elle intègre la quincaillerie que vous désirez. Une marche extérieure permet de rentrer et sortir de votre douche facilement. Comme nos autres produits, le fond de la douche est légèrement surélevé par rapport au sol.</strong></p>
-				<p><a style="cursor: pointer" id="toggler" onclick="showme('modele', this.id);" >Information</a></p>
+				<p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('modele', this.id);" >En savoir plus</a></p>
 				<p id="modele" style="display:none;">
 					<strong>Dimensions</strong><br>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; Dimensions standard : <br>
@@ -55,9 +55,43 @@
 			<p><strong>Possibilités de modifications</strong></p>
 		</header>
 		<p><strong>Il est possible de combiner douche et baignoire pour créer un bain-douche. Il est aussi possible de modifier les dimensions et la forme de la douche quelque peu. </strong></p>
-		<p><a style="cursor: pointer" id="toggler" onclick="showme('modif', this.id);" >Information</a></p>
+		<p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('modif', this.id);" >En savoir plus</a></p>
 		<p id="modif" style="display:none;">Cependant, les modifications sont limitées par la technique de fabrication. La forme du sol est cependant plus libre. Pour le bain-douche on peut, en combinant effectivement deux produits, avoir toutes les possibilités des deux.</p>
 	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<section class="6u 12u(narrower)">
+					<h3>Nous Contacter</h3>
+					<form method="post" action="mail.php">
+						<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
+						<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>
+						<label for="message"><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></label>
+						<label><input type="submit" class="button alt" value="Send Message" /></label>
+
+					</form> 
+				</section>
+			</div>
+		</div>
+
+		<!-- Icons -->
+		<ul class="icons">
+			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+			<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		</ul>
+
+		<!-- Copyright -->
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; Blumenberg GmbH. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+
+
 </section>
 
 

@@ -64,13 +64,25 @@
 
 		<!-- Footer -->
 		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<section class="6u 12u(narrower)">
+						<h3>Nous Contacter</h3>
+						<form method="post" action="mail.php">
+							<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
+							<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>
+							<label for="message"><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></label>
+							<label><input type="submit" class="button alt" value="Send Message" /></label>
+
+						</form> 
+					</section>
+				</div>
+			</div>
+
 			<!-- Icons -->
 			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
 				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 			</ul>
 
 			<!-- Copyright -->

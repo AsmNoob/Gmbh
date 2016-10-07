@@ -2258,7 +2258,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background-color: #50c8fb;
-			color: #fff !important;
+			color: #37c0fb !important;
 		}
 
 		input[type="submit"]:active,
@@ -2641,14 +2641,14 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: #333;
+				background-color: #754C24;
 				background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 				height: 44px;
 				line-height: 44px;
-				box-shadow: 0 4px 0 0 #37c0fb;
+				box-shadow: 0 4px 0 0 grey;
 			}
 
 				#titleBar .title {
@@ -2665,7 +2665,7 @@
 						font-weight: 300;
 					}
 
-				#titleBar .toggle {
+				/*#titleBar .toggle {
 					text-decoration: none;
 					border: 0;
 					height: 60px;
@@ -2674,9 +2674,9 @@
 					top: 0;
 					width: 80px;
 					z-index: 2;
-				}
+				}*/
 
-					#titleBar .toggle:before {
+					/*#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						font-family: FontAwesome;
@@ -2698,8 +2698,8 @@
 					#titleBar .toggle:active:before {
 						opacity: 0.75;
 					}
-
-			#navPanel {
+*/
+			/*#navPanel {
 				background-color: #1f1f1f;
 				box-shadow: inset -1px 0 3px 0 rgba(0, 0, 0, 0.5);
 				background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2726,9 +2726,9 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-			}
+			}*/
 
-				#navPanel .link {
+				/*#navPanel .link {
 					border-bottom: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					color: #888;
@@ -2791,7 +2791,7 @@
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			}*/
 
 /* Wide */
 

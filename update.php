@@ -32,7 +32,7 @@
 
 
 	echo $_POST['update'];
-	if ($_POST['update'] === "bain") echo "J'ai bien reçu ton bain\n"; else echo "là j'ai rien reçu\n"
+	if ($_POST['update'] === "bain") echo "J'ai bien reçu ton bain . <br>"; else echo "là j'ai rien reçu\n"
 	
 	
 ?>

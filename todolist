@@ -1,6 +1,5 @@
 DONE
 + changer information par en savoir plus quand pas technique
-+ coller le texte en dessous d'information button
 + menu tjrs fixe et mis de coté avec la page
 + enlever le blumenberg mettre le menu au dessus, et placer des drops downs à la place
 + mettre à jour le texte
@@ -18,10 +17,14 @@ DONE
 + home server ASK hackerspace
 + barre du bas qui suit
 + check palette graphique et maj
+- créer liste php avec tous les items.
 
 DOING
 
-- créer liste php avec tous les items.
+
++ espace court entre Ensavoir plus et texte
+- titres au dessus barre du bas
+- alert "element ajouté aux préférencesé"
 
 LESS IMPORTANT
 - regarder résolution images + traffic

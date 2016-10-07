@@ -112,7 +112,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 					</br>
 					<p><strong>Entreprise Blumenberg</strong></p>
 				</header>
-				<p><strong>sommesL’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</strong></p>
+				<p><strong>L’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</strong></p>
 				<p>
 					<a  style="cursor: pointer;color:grey;" id="toggler" onclick="showme('entreprise', this.id);" >En savoir plus</a>
 					<p id="entreprise" style="display:none;">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>

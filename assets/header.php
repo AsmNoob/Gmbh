@@ -47,5 +47,5 @@
 	</nav>-->
 
 </div>
-<div style="margin:0;background-color:grey;position:fixed;bottom: 24pt;left: 0;width: 100%;height:3pt"></div>
-<div style="margin:0;background-color:#D3D3D3;color:brown;position:fixed;bottom: 0;left: 0;width: 100%;height:24pt"><p style="position:left">&copy; 2016 The Bubble Bros - Site web par Gerard Tio Nogueras</p></div>
+<div style="z-index:1;margin:0;background-color:grey;position:fixed;bottom: 24pt;left: 0;width: 100%;height:3pt"></div>
+<div style="z-index:1;margin:0;background-color:#D3D3D3;color:#754C24;position:fixed;bottom: 0;left: 0;width: 100%;height:24pt"><p style="position:left">&copy; 2016 The Bubble Bros - Site web par Gerard Tio Nogueras</p></div>

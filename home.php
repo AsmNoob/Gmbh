@@ -113,17 +113,20 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 					<p><strong>Entreprise Blumenberg</strong></p>
 				</header>
 				<p><strong>L’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</strong></p>
-				<p>
+				
 					<a  style="cursor: pointer;color:grey;" id="toggler" onclick="showme('entreprise', this.id);" >En savoir plus</a>
-					<p id="entreprise" style="display:none;">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
-				</p><br>
+					<p id="entreprise" style="display:none;"><br style="margin:0px 0">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
+				<br>
+				<br>
+				<br>
 				<header class="major">
 					<p><strong>Pourquoi le bois ?</strong></p>
 				</header>
 				<p><strong>Le matériau naturel qu’est le bois se prête à merveille à l’expérience de wellness. L’alliance du bois massif, l’air et l’eau crée un climat inégalable pour la détente. De plus, ses qualités inhérentes en font un matériau exceptionnellement adapté aux équipements sanitaires.</strong></p>
-				<p><a  style="cursor: pointer;color:grey" id="toggler" onclick="showme('bois', this.id);" >En savoir plus</a></p>
-				<p id="bois" style="display:none;">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
+				<a  style="cursor: pointer;color:grey" id="toggler" onclick="showme('bois', this.id);" >En savoir plus</a>
+				<p id="bois" style="display:none;"><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
 					L’autre avantage majeur du bois est sa facilité d’entretien. Les traitements de surface de Blumenberg sont quasiment imperméables afin de réduire les variations d’humidité du bois au minimum. Elles respectent également toutes les exigences de résistance thermique, chimique et mécanique ainsi que les exigences hygiéniques. Ceci permet donc d’entretenir la baignoire avec des produits d’entretien de sanitaires classiques. Le bois, étant massif, se patine homogènement et gagne en aspect au fil du temps, contrairement à d’autres matériaux qui perdent leur couleur.</p>
+				<br>
 				</br>
 				<header class="major">
 					<p><strong>Produits</strong></p>
@@ -134,10 +137,11 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 				<p><strong>Personnalisation</strong></p>
 			</header>
 			<p><strong>Grâce à la production unique des produits, une personnalisation poussée est possible. Le dessin de votre produit sera dans tous les cas exactement adapté à vos désirs et vos besoins.</strong></p>
-			<p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('perso', this.id);" >En savoir plus</a></p>
-			<p id="perso" style="display:none;">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation.<br> 
+			<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('perso', this.id);" >En savoir plus</a>
+			<p id="perso" style="display:none;"><br style="margin:0px 0">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation.<br> 
 				Dans la section dédiée à chaque type de produit spécifique vous trouverez une description des différentes options possibles, allant des dimensions aux accessoires.</p>
-			</br>
+			<br>
+		</br>
 		</div>;
 	</section>
 
@@ -146,7 +150,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		<div class="container">
 			<div class="row">
 				<section class="6u 12u(narrower)">
-					<h3>Nous Contacter</h3>
+					<h3>Contactez-nous!</h3>
 					<form method="post" action="mail.php">
 						<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
 						<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>

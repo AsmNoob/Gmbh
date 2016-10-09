@@ -17,22 +17,45 @@ DONE
 + home server ASK hackerspace
 + barre du bas qui suit
 + check palette graphique et maj
-- créer liste php avec tous les items.
++ créer liste php avec tous les items.
+
++ changer nous en contactez nous
++ REPARER LA BARRE MENU
++ espace court entre Ensavoir plus et texte
 
 DOING
 
 
-+ espace court entre Ensavoir plus et texte
+
 - titres au dessus barre du bas
 - alert "element ajouté aux préférencesé"
+- polices
+- changer les couleurs
+- espaces (pourcentages)
+- test XSS
+- thumbnail facebook
+- tags: Google
+- IMAGES SKYPE
+- tailles images (bannières-1ère illustration sur la bannière, autre images sur le corps)
+
+
+
+
+Codes Images:
+B: image de base
+be: quand je clic sur en savoir plus(à droite)
+a: visible que qd on ouvre en savoir plus
+
+
+
 
 LESS IMPORTANT
 - regarder résolution images + traffic
 - checker comment changer la langue
 
 TOGETHER/THIB
+- photos
 - définir le nom: trouver des idées
 - remplacer les Gmbh par notre logo
 - créer facebook & linkedin enlever les autres
-- rajouter ordre de grandeur des prix si thib est flouté
-- 21h vendredi deadline + check voyage
+20h  dimanche :D

@@ -36,7 +36,7 @@
 					<form action="update.php" method="post">
 						<input type="text" name="update" value="bains" style="display:none">
 						<input style="height:100px;width:100px;color:transparent;box-sizing:content-box;background-image:url('images/Baignoires/BW_Benecke.jpg')"  title='Pour ajouter cet élément à vos préférences,
-il vous suffit de cliquer sur ce titre.' type="submit" value="baignoire">
+						il vous suffit de cliquer sur ce titre.' type="submit" value="baignoire">
 					</form>
 				</p>
 				<p><img src="images/Baignoires/BW_Benecke.jpg" align="right" valign="middle" vspace="5" hspace="5" style="margin-top:-80px"/><strong>Dépendant des spécifications désirées, le type de produit varie.
@@ -114,17 +114,11 @@ il vous suffit de cliquer sur ce titre.' type="submit" value="baignoire">
 <p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('profilsSup', this.id);" ><strong>Profil supérieur</strong></a></p>
 <p id="profilsSup" style="display:none;">Relever le profil supérieur de la baignoire en tête permet d’avoir un appui pour la tête tout en gardant le 
 	profil général plus bas. Il est possible de dédoubler ce profil afin d’accommoder une baignoire pour deux personnes.
-<p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('profilsInf', this.id);" ><strong>Profil inférieur</strong></a></p>
-<p id="profilsInf" style="display:none;">Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
-sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p><a name="positionnement"></a>
+	<p><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('profilsInf', this.id);" ><strong>Profil inférieur</strong></a></p>
+	<p id="profilsInf" style="display:none;">Il est possible d’avoir un profil inférieur continu ou découpé en apparence. Dans le cas d’un raccord au mur, une découpe 
+		sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour les tuyauteries. </p><a name="positionnement"></a>
 
-
-					<!-- </div>
-				</section>
-
-				<section class="wrapper style2">
-					<div class="container"> -->
-					</br>
+	</br>
 				</br>
 				<header class="major">
 					<p><strong>Positionnement</strong></p>
@@ -156,32 +150,32 @@ sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour l
 				<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('entree', this.id);" ><strong>Entrée</strong></a>
 				<p id="entree" style="display:none;">
 					L’entrée d’eau se fait habituellement indépendamment de la baignoire sur le raccord au mur ou de manière complètement autonome. Nous vous recommandons de commander indépendamment votre quincaillerie auprès de votre fournisseur sanitaire. Nous aurons besoin des spécifications techniques du produit afin de l’intégrer au mieux dans la finition. Nous vous conseillons un robinet à bec rétractable et tuyau flexible pour la facilité de nettoyage du tonneau ou de la baignoire. Le positionnement préférable pour le robinet est au milieu du côté long. Pour l’option bain à remous une vanne à bille est installée dans la partie cachée de la baignoire pour réguler l’apport principal. Pour les options supplémentaires par rapport au bain à remous, voir le paragraphe dédié.</p></br>
-				<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('sortie', this.id);" ><strong>Evacuation</strong></a>
-				<p id="sortie" style="display:none;">
-					L’évacuation de l’eau se fait par défaut intégré dans le sol de la baignoire, il est normalement connecté à un tuyau de diamètre 1¼" ou 1½". Il vous est également possible d’intégrer un trop-plein dans la paroi de votre produit. Cette évacuation peut être extérieure ou intérieure au tonneau, et il est également possible de faire l’évacuation extérieure en laiton chromé pour un meilleur aspect visuel. Toute la tuyauterie est ordinairement rigide, mais une évacuation flexible peut également être accommodée.
-				</p>
+					<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('sortie', this.id);" ><strong>Evacuation</strong></a>
+					<p id="sortie" style="display:none;">
+						L’évacuation de l’eau se fait par défaut intégré dans le sol de la baignoire, il est normalement connecté à un tuyau de diamètre 1¼" ou 1½". Il vous est également possible d’intégrer un trop-plein dans la paroi de votre produit. Cette évacuation peut être extérieure ou intérieure au tonneau, et il est également possible de faire l’évacuation extérieure en laiton chromé pour un meilleur aspect visuel. Toute la tuyauterie est ordinairement rigide, mais une évacuation flexible peut également être accommodée.
+					</p>
+				</br>
+				<a name="bainsARemous"></a>
 			</br>
-			<a name="bainsARemous"></a>
 		</br>
-	</br>
-	<header class="major">
-		<p><strong>Bains à remous</strong></p>
-	</header>
-	<p>
-		<strong>Chaque baignoire ou tonneau Blumenberg peut être équipé d’un système de bain à remous. Le système standard intégré est le système à air. Il peut cependant, sur demande, être couplé à un système jet.</strong>
-	</p>
-	Nous appliquons uniquement des systèmes à qualité éprouvée lors de la réalisation de nos bains à remous. Le marché des bains à remous étant en perpétuelle évolution, nous vous invitons à nous faire parvenir vos envies et vos demandes. Il est évidemment possible d’intégrer n’importe quel système installable dans un autre type de bain à remous, dans nos produits.
-	<br><br><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('massageAir', this.id);" ><strong>Système de massage à l’air</strong></a><p id="massageAir" style="display:none;">Le système à air fonctionne sur base d’un jet, réglable, d’air soufflé par des becs insérés dans les parois de la baignoire ou du tonneau.<br>Ce système est aussi nommé système Spa ou système Air Jet. L’intensité du souffle d’air est réglée par des boutons insérés dans le raccord au mur. L’air est compressé dans un souffleur spécialisé pour bain à remous, avant d’être injecté dans l’eau pour vous masser de la tête aux pieds. 
-	Informations techniques du souffleur : 230 V, 0,7 kW à 1,3 kW</p>
-	<br>
-	<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('massageJet', this.id);" ><strong>Système jet-massage</strong></a><p id="massageJet" style="display:none;">Ce système fonctionne sur base de 2 (ou plus) becs installés au niveau du dos qui éjectent un jet d’eau afin de vous masser.<br>Ce dispositif est également appelé système : hydro, Venturi, airjet ou jacuzzi. Il combine un flot d’eau pompé de l’eau de bain avec un flot d’air selon le principe Venturi. L’eau est pompée par une pompe spécialisée pour bain à remous. La quantité du flot d’air, directement réglable sur le raccord au mur, influence la concentration du jet : diffus ou ponctuel. Le système de base est le système Jet 1. Un élément de chauffe peut être installé sur le circuit de pompe afin de garder l’eau projetée à température. Ce système est le système Jet 2. Le système Jet 2 ST est équipé d’une écumoire afin de pomper l’eau en surface. 
-	<br>Informations techniques de la pompe (additionnellement) : 230 V, 0,55 kW à 1,5 kW
-	<br>Informations techniques de l’élément de chauffe (additionnellement) : 400 V, 6 kW ou 9 kW</p>
+		<header class="major">
+			<p><strong>Bains à remous</strong></p>
+		</header>
+		<p>
+			<strong>Chaque baignoire ou tonneau Blumenberg peut être équipé d’un système de bain à remous. Le système standard intégré est le système à air. Il peut cependant, sur demande, être couplé à un système jet.</strong>
+		</p>
+		Nous appliquons uniquement des systèmes à qualité éprouvée lors de la réalisation de nos bains à remous. Le marché des bains à remous étant en perpétuelle évolution, nous vous invitons à nous faire parvenir vos envies et vos demandes. Il est évidemment possible d’intégrer n’importe quel système installable dans un autre type de bain à remous, dans nos produits.
+		<br><br><a style="cursor: pointer;color:grey" id="toggler" onclick="showme('massageAir', this.id);" ><strong>Système de massage à l’air</strong></a><p id="massageAir" style="display:none;">Le système à air fonctionne sur base d’un jet, réglable, d’air soufflé par des becs insérés dans les parois de la baignoire ou du tonneau.<br>Ce système est aussi nommé système Spa ou système Air Jet. L’intensité du souffle d’air est réglée par des boutons insérés dans le raccord au mur. L’air est compressé dans un souffleur spécialisé pour bain à remous, avant d’être injecté dans l’eau pour vous masser de la tête aux pieds. 
+		Informations techniques du souffleur : 230 V, 0,7 kW à 1,3 kW</p>
+		<br>
+		<a style="cursor: pointer;color:grey" id="toggler" onclick="showme('massageJet', this.id);" ><strong>Système jet-massage</strong></a><p id="massageJet" style="display:none;">Ce système fonctionne sur base de 2 (ou plus) becs installés au niveau du dos qui éjectent un jet d’eau afin de vous masser.<br>Ce dispositif est également appelé système : hydro, Venturi, airjet ou jacuzzi. Il combine un flot d’eau pompé de l’eau de bain avec un flot d’air selon le principe Venturi. L’eau est pompée par une pompe spécialisée pour bain à remous. La quantité du flot d’air, directement réglable sur le raccord au mur, influence la concentration du jet : diffus ou ponctuel. Le système de base est le système Jet 1. Un élément de chauffe peut être installé sur le circuit de pompe afin de garder l’eau projetée à température. Ce système est le système Jet 2. Le système Jet 2 ST est équipé d’une écumoire afin de pomper l’eau en surface. 
+		<br>Informations techniques de la pompe (additionnellement) : 230 V, 0,55 kW à 1,5 kW
+		<br>Informations techniques de l’élément de chauffe (additionnellement) : 400 V, 6 kW ou 9 kW</p>
 
 
 
 
-</br><a name="access"></a>
+	</br><a name="access"></a>
 </br>
 </br>
 <header class="major">
@@ -208,7 +202,7 @@ sera toujours pratiquée dans le bas de la baignoire dans la face cachée pour l
 	<div class="container">
 		<div class="row">
 			<section class="6u 12u(narrower)">
-				<h3>Nous Contacter</h3>
+				<h3>Contactez-nous!</h3>
 				<form method="post" action="mail.php">
 					<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
 					<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>

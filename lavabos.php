@@ -66,7 +66,7 @@
 	<div class="container">
 		<div class="row">
 			<section class="6u 12u(narrower)">
-				<h3>Nous Contacter</h3>
+				<h3>Contactez-nous!</h3>
 				<form method="post" action="mail.php">
 					<label for="name"><input type="text" name="name" id="name" placeholder="Name" /></label>
 					<label for="email"><input type="email" name="email" id="email" placeholder="Email" /></label>

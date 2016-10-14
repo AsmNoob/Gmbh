@@ -2487,7 +2487,7 @@
 
 /* Banner */
 
-	#banner {
+	/*#banner {
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
@@ -2529,7 +2529,7 @@
 			#banner header .button {
 				vertical-align: middle;
 				margin-left: 1em;
-			}
+			}*/
 
 /* Wrapper */
 

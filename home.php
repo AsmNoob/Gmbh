@@ -34,11 +34,17 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		<?php include("assets/header.php"); ?>
 
 		<!-- Banner -->
-		<section id="banner" style="background-image: url(images/banners/banner_home.jpg);">
+		<section id="banner" style="background-image: url(pics/Home_0_BG.png);height:700px">
 			<header>
 				<h2>Blumenberg .<em> La tonnellerie en bois massif</em></h2>
 			</header>
 		</section>
+
+		<!-- <div style="background-image: url(pics/Home_0_BG.png);display: block;height:77%">
+			<div style="left:46%;right31%;filter: alpha(opacity=70);background-color: #ffffff;opacity: 0.7;color:#E5E5E5">
+				THIS IS A TEST
+			</div>
+		</div> -->
 
 		<!-- PHP -->
 		<br>

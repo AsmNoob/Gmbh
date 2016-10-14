@@ -18,27 +18,26 @@ DONE
 + barre du bas qui suit
 + check palette graphique et maj
 + créer liste php avec tous les items.
-
++ titres au dessus barre du bas
 + changer nous en contactez nous
-+ REPARER LA BARRE MENU
+
 + espace court entre Ensavoir plus et texte
 
 DOING
 
-
-
-- titres au dessus barre du bas
+- REPARER LA BARRE MENU
 - alert "element ajouté aux préférencesé"
 - polices
 - changer les couleurs
 - espaces (pourcentages)
-- test XSS
+
 - thumbnail facebook
 - tags: Google
 - IMAGES SKYPE
 - tailles images (bannières-1ère illustration sur la bannière, autre images sur le corps)
+- check http://startupbros.com/how-to-pick-the-perfect-name-for-your-business-or-startup/
 
-
+-idées: bubbles projects, bubble brotherhood, bubble business
 
 
 Codes Images:
@@ -52,6 +51,7 @@ a: visible que qd on ouvre en savoir plus
 LESS IMPORTANT
 - regarder résolution images + traffic
 - checker comment changer la langue
+- test XSS
 
 TOGETHER/THIB
 - photos

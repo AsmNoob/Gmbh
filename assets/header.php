@@ -1,4 +1,4 @@
-<div id="header" style="display:none">
+<div>
 
 	<!-- Logo -->
 

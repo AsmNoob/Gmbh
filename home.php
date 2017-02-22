@@ -26,7 +26,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 <body>
 
 
-	600px
+	
 	<div id="page-wrapper">
 
 		<!-- Header -->
@@ -34,13 +34,83 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		<?php include("assets/header.php"); ?>
 
 		<!-- Banner -->
-		<section style="background-image: url(pics/Home_0_BG.png);height:660px">
+		<!--<section style="background-image: url(pics/Home_0_BG.png);height:660px">
 			
-		</section>
+		</section>-->
 
-		<div style="background-image: url(pics/Home_0_BG.png);display: block;height:660px">
-			<div style="left:46%;right31%;filter: alpha(opacity=70);background-color: #ffffff;opacity: 0.7;color:#E5E5E5">
-				THIS IS A TEST
+		<!--template for page division-->
+		<!--
+		<div>
+			<div style="float:left;height:100%;width:8%">	
+			</div>
+
+			<div style="float:left;height:100%;width:38%;">
+				<div>
+				</div>
+			</div>
+
+			<div style="float:left;height:100%;width:23%;">
+				<div>
+				</div>
+			</div>
+
+			<div style="float:left;height:100%;width:23%;background-image:url(pics/Home_0_R_b.png);background-size:100%">
+			</div>
+
+			<div style="float:left;height:100%;width:8%;">
+			</div>
+		</div>
+		-->
+
+		<!--Intro Main part-->
+		<div style="margin-top:-20px;background-image: url(pics/Home_0_BG.png);background-size:100%;background-repeat:no-repeat;display: block;overflow: hidden;height:1080px;">
+			<div style="float:left;color:#E5E5E5;height:100%;width:8%">	
+			</div>
+
+			<!--Logo + Entreprise Name-->
+			<div style="float:left;height:100%;width:38%;position:relative">
+				<p style="font-size:132pt;margin-top:150px;margin-left:50px;">LOGO</p>
+				<span style="vertical-align:bottom;float:left;font-family:candara;color:#4D4D4D;font-size:36pt;position:absolute;bottom:0;left:0;margin-bottom:10px;margin-left:5px;">
+					<strong>Blumenberg</strong> - la tonnellerie en bois massif
+				</span>
+			</div>
+
+			<!--Entreprise description-->
+			<div style="float:left;height:100%;width:23%;filter: alpha(opacity=70);background-color: #ffffff;opacity: 0.7;">
+				<div style="margin-left:20px;margin-right:20px;margin-top:80px;">
+					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Entreprise Blumenberg</strong></p>
+					<p style="font-family:calibri;font-size:18pt;color:#4D4D4D;">L’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</p>
+					<a  style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('entreprise', this.id);" ><strong>En savoir plus</strong></a>
+					<p id="entreprise" style="display:none;"><br style="margin:0px 0">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
+				</div>
+			</div>
+
+			<!--Stylish picture-->
+			<div style="float:left;height:100%;width:23%;background-image:url(pics/Home_0_R_b.png);background-size:100%">
+			</div>
+
+			<div style="float:left;height:100%;width:8%;">
+			</div>
+		</div>
+
+
+		<!--Sub Parts-->
+		<div>
+			<div style="float:left;height:100%;width:8%">
+				<div>
+				</div>
+			</div>
+
+			<div style="float:left;height:100%;width:38%;">
+			</div>
+
+			<div style="float:left;height:100%;width:23%;">
+			</div>
+
+			<div style="float:left;height:100%;width:23%;background-image:url(pics/Home_0_R_b.png);background-size:100%">
+			</div>
+
+			<div style="float:left;height:100%;width:8%;">
 			</div>
 		</div>
 
@@ -49,7 +119,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		<br>
 		<!--<p> &nbsp;&nbsp;&nbsp;&nbsp;Bain moussant 760€ &nbsp;&nbsp;&nbsp;&nbsp;<a href="panier.php?action=ajout&amp;l=bain&amp;q=moussant&amp;p=162x62" onclick="window.open(this.href, '', 
 		'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">Ajouter au panier</a></p>-->
-		<br>
+		<!--<br>
 		<br>
 		<form>
 			<select multiple name="snacks[ ]">
@@ -108,7 +178,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 				echo "Do not Need wheelchair access.";
 			}    
 
-			?>
+			?>-->
 			<section class="wrapper style2">
 				<div class="container">
 					<header class="major">
@@ -182,6 +252,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		</div>
 
 	</div>
+
 
 </div>
 

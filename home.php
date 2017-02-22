@@ -1,15 +1,14 @@
 <?php  
 session_start();
 
-
 //IL FAUT CHEQUER AU DEBUT DE CHAQUE PAGE SI LA LISTE DE LISTE EXISTE SINON LA CREER
 
-if (!isset($_SESSION['listeProduits'])) {
+/*if (!isset($_SESSION['listeProduits'])) {
 	$array = array('Fr','Mi','Ni');
 	$_SESSION['listeProduits'] = $array;
 }
 
-$_SESSION['formDoor'] = array('Fr','Mi','Ni');
+$_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 
 ?>
 <!DOCTYPE HTML>
@@ -101,19 +100,19 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		</div>
 
 		<!--Pourquoi le bois-->
-		<div style="height:490px;width:100%;background-color:white;">
+		<div style="height:820px;width:100%;background-color:white;">
 			<div style="float:left;height:100%;width:8%">
 			</div>
 
 			<div style="float:left;height:100%;width:38%;">
-				<div style="margin-left:15px;margin-top:40px;margin-right:15px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
 					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Pourquoi le bois ?</strong></p>
 					<p style="font-family:calibri;font-size:18pt;color:#4D4D4D;">Le matériau naturel qu’est le bois se prête à merveille à l’expérience de wellness. L’alliance du bois massif, l’air et l’eau crée un climat inégalable pour la détente. De plus, ses qualités inhérentes en font un matériau exceptionnellement adapté aux équipements sanitaires.</p>
 				</div>
 			</div>
 
 			<div style="float:left;height:100%;width:23%;background-color:#E5E5E5">
-				<div style="margin-left:15px;margin-top:40px;margin-right:15px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
 					<a  style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('bois', this.id);" ><strong>En savoir plus</strong></a>
 					<p id="bois" style="display:none;font-family:calibri;font-size:18pt;color:#754C24;"><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
 						L’autre avantage majeur du bois est sa facilité d’entretien. Les traitements de surface de Blumenberg sont quasiment imperméables afin de réduire les variations d’humidité du bois au minimum. Elles respectent également toutes les exigences de résistance thermique, chimique et mécanique ainsi que les exigences hygiéniques. Ceci permet donc d’entretenir la baignoire avec des produits d’entretien de sanitaires classiques. Le bois, étant massif, se patine homogènement et gagne en aspect au fil du temps, contrairement à d’autres matériaux qui perdent leur couleur.</p>
@@ -140,14 +139,14 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 			</div>
 
 			<div style="float:left;height:100%;width:38%;">
-				<div style="margin-left:15px;margin-top:40px;margin-right:15px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
 					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Produits</strong></p>
 					<p style="font-family:candara;font-size:18pt;color:#4D4D4D;">Blumenberg GmbH produit une gamme de produits en bois massif, basé sur la forme du tonneau. Cette forme se prête autant à des baignoires, des tonneaux de plongeon de sauna, des douches, des lavabos et d’autres accessoires. <br>Chacun de ces produits est produit avec le plus grand soin pour garantir leur qualité. La production de votre produit est suivie individuellement de la conception à la fabrication afin de vous garantir le résultat le plus adapté possible.</p>
 				</div>
 			</div>
 
 			<div style="float:left;height:100%;width:23%;background-color:#E5E5E5">
-				<div style="margin-left:15px;margin-top:40px;margin-right:15px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
 					<p style="font-family:calibri;font-size:18pt;color:#754C24;"><strong>Personnalisation</strong></p>
 					<p style="font-family:calibri;font-size:18pt;color:#754C24;">Grâce à la production unique des produits, une personnalisation poussée est possible. Le dessin de votre produit sera dans tous les cas exactement adapté à vos désirs et vos besoins.</p>
 					<a style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('perso', this.id);" ><strong>En savoir plus</strong></a>

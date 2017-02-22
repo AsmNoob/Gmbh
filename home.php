@@ -101,7 +101,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		</div>
 
 		<!--Pourquoi le bois-->
-		<div style="height:490px;width:100%;">
+		<div style="height:490px;width:100%;background-color:white;">
 			<div style="float:left;height:100%;width:8%">
 			</div>
 
@@ -133,7 +133,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');
 		</div>
 
 		<!--Produits-->
-		<div style="height:700px;width:100%;">
+		<div style="height:700px;width:100%;background-color:white;">
 			<div style="float:left;height:100%;width:8%">
 				<div style="margin-left:5px;margin-top:40px">
 				</div>

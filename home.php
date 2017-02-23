@@ -16,9 +16,10 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 <head>
 	<title>Blumenberg GmbH</title>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 </head>
@@ -62,7 +63,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 		-->
 
 		<!--Intro Main part-->
-		<div style="margin-top:-20px;background-image: url(pics/Home_0_BG.png);background-size:100%;background-repeat:no-repeat;display: block;overflow: hidden;height:1080px;">
+		<div style="margin-top:52px;background-image: url(pics/Home_0_BG.png);background-size:100%;background-repeat:no-repeat;display: block;overflow: hidden;height:1080px;">
 			<div style="float:left;height:100%;width:8%">	
 			</div>
 
@@ -304,16 +305,26 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 
 	</div>
 
-
-</div>
-
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
+<!-- <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.dropotron.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
+<script src="assets/js/util.js"></script> -->
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
-
+<!-- <script src="assets/js/main.js"></script> -->
+<script type="text/javascript">
+	function showme(id, linkid) {
+	    var divid = document.getElementById(id);
+	    var toggleLink = document.getElementById(linkid);
+	    if (divid.style.display == 'block') {
+	        toggleLink.innerHTML = "En savoir plus";
+	        divid.style.display = 'none';
+	    }
+	    else {
+	        toggleLink.innerHTML = "En savoir plus";
+	        divid.style.display = 'block';
+	    }
+	}
+</script>
 </body>
 </html>

@@ -10,25 +10,24 @@
     	padding: 0;
     	overflow: hidden;
     	display: inline-block;
-
 	}
 
-	li {
+	ul li {
 		float: left;
-
+		font-size: 18pt;
     	font-family:candara;
     	color:white;
+    	font-weight: bold;
 	}
 
-	li a {
+	ul li a {
+		padding: 8px 24%;
 	    display: inline-block;
 	    color: white;
-	    text-align: center;
-	    padding: 14px 16px;
 	    text-decoration: none;
 	}
 
-	li a:hover {
+	ul li a:hover {
     color: #37c0fb;
 	}	
 	</style>
@@ -36,7 +35,7 @@
 	<!-- COLOR BLUE USED: #37c0fb-->
 
 	<ul>
-		<li><a href="home.php">Home</a></li>
+		<li><a style="padding: 8px 16px" href="home.php">Home</a></li>
 		<li><a href="materiaux.php">Matérieux</a></li>
 		<li><a href="bains.php">Bains</a></li>
 		<li><a href="douches.php">Douches</a></li>
@@ -48,7 +47,7 @@
 	</ul>
 
 	<!--Separator-->
-	<div style="height:7px;background-color:#4D4D4D;top:45px;margin-top:-5px">
+	<div style="height:7px;background-color:#4D4D4D;top:45px;margin-top:-2px">
 	</div>
 </div>
 
@@ -98,7 +97,7 @@
 <div style="position:fixed;bottom:0;">
 	<div style="z-index:1;background-color:#CBCBCB;position:fixed;bottom: 45px;width: 100%;height:7px"></div>
 	<div style="z-index:1;background-color:#E5E5E5;position:fixed;bottom: 0;width: 100%;height:45px;">
-		<style type="text/css">
+		<!--<style type="text/css">
 			ul {
 		    	list-style-type: none;
 		    	margin: 0;
@@ -113,14 +112,13 @@
 			    padding: 14px 16px;
 			    text-decoration: none;
 			}
-		</style>
-		<ul>
-			<li style="float:left"><p style="float:left;padding-left:10px;font-family:candara;color:#754C24;"><strong>&copy; 2017 The Bubble Bros - Site web par Gerard Tio Nogueras</strong></p></li>
-			<li style="float:right;" ><a href="#" style="color:#754C24;"><strong>Contactez-nous!</strong></a></li>
-			<li style="float:right;" ><a href="#" style="" title="Facebook"><img src="pics/Logos/fb.png"></a></li>
-			<li style="float:right;" ><a href="#" style="" title="LinkedIn"><img src="pics/Logos/link.png"></a></li>
-			<li style="float:right;" ><a href="contact.php" style="" title="Mail"><img src="pics/Logos/mail.png"></a></li>
-			
+		</style>-->
+		<ul style="list-style-type: none;margin: 0;padding: 0;display: inline-block;width:100%">
+			<li style="float:left"><p style="padding:10px;margin:0;font-size:18pt;font-family:candara;color:#754C24;"><strong>&copy; 2017 The Bubble Bros - Site web par Gerard Tio Nogueras</strong></p></li>
+			<li style="float:right;" ><a href="contact.php" style="padding: 2px 5px" title="Mail"><img src="pics/Logos/mail.png"></a></li>
+			<li style="float:right;" ><a href="#" style="padding: 2px 5px" title="LinkedIn"><img src="pics/Logos/link.png"></a></li>
+			<li style="float:right;" ><a href="#" style="padding: 2px 5px" title="Facebook"><img src="pics/Logos/fb.png"></a></li>
+			<li style="float:right;" ><a href="#" style="font-size:18pt;font-family:candara;color:#754C24;"><strong>Contactez-Nous!</strong></a></li>
 		</ul>
 		<!-- <div style="text-decoration:none;font-family:candara;font-size:18pt;color:#754C24;">
 			<p style="float:left;padding-top:-20px;padding-left:10px"><strong>&copy; 2017 The Bubble Bros - Site web par Gerard Tio Nogueras</strong></p>

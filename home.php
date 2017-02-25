@@ -17,7 +17,8 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 	<title>Blumenberg GmbH</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" /><!-- 
+	<link rel="stylesheet" href="assets/css/w3.css"> -->
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -77,7 +78,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 
 			<!--Entreprise description-->
 			<div style="float:left;height:100%;width:23%;filter: alpha(opacity=70);background-color: #ffffff;opacity: 0.7;">
-				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:50px">
 					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Entreprise Blumenberg</strong></p>
 					<p style="font-family:calibri;font-size:18pt;color:#4D4D4D;">L’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</p>
 					<a  style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('entreprise', this.id);" ><strong>En savoir plus</strong></a>
@@ -101,19 +102,19 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 		</div>
 
 		<!--Pourquoi le bois-->
-		<div style="height:820px;width:100%;background-color:white;">
+		<div style="height:670px;width:100%;background-color:white;">
 			<div style="float:left;height:100%;width:8%">
 			</div>
 
 			<div style="float:left;height:100%;width:38%;">
-				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:50px">
 					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Pourquoi le bois ?</strong></p>
 					<p style="font-family:calibri;font-size:18pt;color:#4D4D4D;">Le matériau naturel qu’est le bois se prête à merveille à l’expérience de wellness. L’alliance du bois massif, l’air et l’eau crée un climat inégalable pour la détente. De plus, ses qualités inhérentes en font un matériau exceptionnellement adapté aux équipements sanitaires.</p>
 				</div>
 			</div>
 
 			<div style="float:left;height:100%;width:23%;background-color:#E5E5E5">
-				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:50px">
 					<a  style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('bois', this.id);" ><strong>En savoir plus</strong></a>
 					<p id="bois" style="display:none;font-family:calibri;font-size:18pt;color:#754C24;"><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
 						L’autre avantage majeur du bois est sa facilité d’entretien. Les traitements de surface de Blumenberg sont quasiment imperméables afin de réduire les variations d’humidité du bois au minimum. Elles respectent également toutes les exigences de résistance thermique, chimique et mécanique ainsi que les exigences hygiéniques. Ceci permet donc d’entretenir la baignoire avec des produits d’entretien de sanitaires classiques. Le bois, étant massif, se patine homogènement et gagne en aspect au fil du temps, contrairement à d’autres matériaux qui perdent leur couleur.</p>
@@ -140,14 +141,14 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 			</div>
 
 			<div style="float:left;height:100%;width:38%;">
-				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:50px">
 					<p style="font-family:candara;font-size:22pt;color:#4D4D4D;"><strong>Produits</strong></p>
 					<p style="font-family:candara;font-size:18pt;color:#4D4D4D;">Blumenberg GmbH produit une gamme de produits en bois massif, basé sur la forme du tonneau. Cette forme se prête autant à des baignoires, des tonneaux de plongeon de sauna, des douches, des lavabos et d’autres accessoires. <br>Chacun de ces produits est produit avec le plus grand soin pour garantir leur qualité. La production de votre produit est suivie individuellement de la conception à la fabrication afin de vous garantir le résultat le plus adapté possible.</p>
 				</div>
 			</div>
 
 			<div style="float:left;height:100%;width:23%;background-color:#E5E5E5">
-				<div style="margin-left:30px;margin-right:30px;margin-top:80px;">
+				<div style="margin-left:30px;margin-right:30px;margin-top:50px">
 					<p style="font-family:calibri;font-size:18pt;color:#754C24;"><strong>Personnalisation</strong></p>
 					<p style="font-family:calibri;font-size:18pt;color:#754C24;">Grâce à la production unique des produits, une personnalisation poussée est possible. Le dessin de votre produit sera dans tous les cas exactement adapté à vos désirs et vos besoins.</p>
 					<a style="cursor: pointer;font-family:calibri;font-size:18pt;color:#754C24;" id="toggler" onclick="showme('perso', this.id);" ><strong>En savoir plus</strong></a>
@@ -311,20 +312,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script> -->
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<!-- <script src="assets/js/main.js"></script> -->
-<script type="text/javascript">
-	function showme(id, linkid) {
-	    var divid = document.getElementById(id);
-	    var toggleLink = document.getElementById(linkid);
-	    if (divid.style.display == 'block') {
-	        toggleLink.innerHTML = "En savoir plus";
-	        divid.style.display = 'none';
-	    }
-	    else {
-	        toggleLink.innerHTML = "En savoir plus";
-	        divid.style.display = 'block';
-	    }
-	}
-</script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>

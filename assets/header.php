@@ -1,41 +1,11 @@
-<div style="background-color:#754C24;height:45px;width:100%;position: fixed;z-index:1;top: 0;text-align: center;">
+<div class="top-menu">
 
 	<!-- Logo -->
 
-	<style type="text/css">
-
-	ul {
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
-    	display: inline-block;
-	}
-
-	ul li {
-		float: left;
-		font-size: 18pt;
-    	font-family:candara;
-    	color:white;
-    	font-weight: bold;
-	}
-
-	ul li a {
-		padding: 8px 24%;
-	    display: inline-block;
-	    color: white;
-	    text-decoration: none;
-	}
-
-	ul li a:hover {
-    color: #37c0fb;
-	}	
-	</style>
-
 	<!-- COLOR BLUE USED: #37c0fb-->
-
-	<ul>
-		<li><a style="padding: 8px 16px" href="home.php">Home</a></li>
+	<button id="menu-button">Menu</button>
+	<ul hidden>
+		<li><a href="home.php">Home</a></li>
 		<li><a href="materiaux.php">Matérieux</a></li>
 		<li><a href="bains.php">Bains</a></li>
 		<li><a href="douches.php">Douches</a></li>
@@ -47,7 +17,7 @@
 	</ul>
 
 	<!--Separator-->
-	<div style="height:7px;background-color:#4D4D4D;top:45px;margin-top:-2px">
+	<div id="menu-separator">
 	</div>
 </div>
 

@@ -33,14 +33,21 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 
 		<!-- Banner -->
 
+		<div class="mobile-banner" style="background-image: url(pics/Home_0_BG.png);">
+			<p class="body-logo">LOGO</p>
+			<span class="information">
+				<strong>Blumenberg</strong> - la tonnellerie en bois massif
+			</span>
+		</div>
+
 		<!--Intro Main part-->
-		<div class="body-main-banner" style="background-image: url(pics/Home_0_BG.png);">
+		<div class="body-main-banner" >
 			<div class="body-left-banner">	
 			</div>
 
 			<!--Logo + Entreprise Name-->
 			<div class="body-logo-banner">
-				<p class="body-logo" style="f">LOGO</p>
+				<p class="body-logo">LOGO</p>
 				<span class="information">
 					<strong>Blumenberg</strong> - la tonnellerie en bois massif
 				</span>
@@ -51,8 +58,14 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 				<div class="body-info-banner-inside-box">
 					<p id="entreprise-presentation"><strong>Entreprise Blumenberg</strong></p>
 					<p id="entreprise-presentation-text">L’entreprise Blumenberg s’est associée au matériau agréable qu’est le bois depuis plus de 100 ans dans la fabrication de produits dérivés de tonneaux. Depuis des dizaines d’années ils fournissent  à peu près tous les grands fabricants et vendeurs du secteur des saunas avec leurs produits de qualité appréciés comme tels.</p>
-					<a id="toggler" onclick="showme('entreprise', this.id);" ><strong>En savoir plus</strong></a>
-					<p id="entreprise"><br style="margin:0px 0">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
+					<div class="mobile-extra" style="background-image:url(pics/Home_0_R_b.png);">
+						<a id="toggler" onclick="showme('entreprise', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="entreprise"><br style="margin:0px 0">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
+					</div>
+					<div class="extra">
+						<a id="toggler" onclick="showme('entreprise', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="entreprise"><br style="margin:0px 0">Nous ne connaissons pas d’autre fabriquant, qui produit en quantité et qualité similaire des baignoires, tonneaux de plongeon ou de baignade et bains à remous en bois massif. Dans l'atelier plein de tradition ils disposent de toute la flexibilité nécessaire pour, à part le service de livraison standard, fort apprécié, s'adapter aux souhaits particuliers de nos clients.</p>
+					</div>
 				</div>
 			</div>
 
@@ -85,10 +98,17 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 
 			<div class="body-middle-banner">
 				<div>
-					<a id="toggler" onclick="showme('bois', this.id);" ><strong>En savoir plus</strong></a>
-					<p id="bois" style=""><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
+					<div class="mobile-extra" style="background-image:url(pics/Home_1_R_b.png);">
+						<a id="toggler" onclick="showme('bois', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="bois"><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
+						L’autre avantage majeur du bois est sa facilité d’entretien. Les traitements de surface de Blumenberg sont quasiment imperméables afin de réduire les variations d’humidité du bois au minimum. Elles respectent également toutes les exigences de résistance thermique, chimique et mécanique ainsi que les exigences hygiéniques. Ceci permet donc d’entretenir la baignoire avec des produits d’entretien de sanitaires classiques. Le bois, étant massif, se patine homogènement et gagne en aspect au fil du temps, contrairement à d’autres matériaux qui perdent leur couleur.</p>
+					</div>
+					<div class="extra">
+						<a id="toggler" onclick="showme('bois', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="bois"><br style="margin:0px 0">Evidemment le bois est un matériau excellent au point de vue écologique pour son empreinte de carbone lors de la production. Nous ne rentrerons pas dans le détail du comparatif avec des panneaux sandwich faits d’acrylique, polyester et mousse de polyuréthane. Il suffit de mettre en évidence la qualité isolante du bois massif, qui garantira un refroidissement minimal même après une longue durée. Cette caractéristique garantit aussi une température de contact agréable, contrairement à d’autres matériaux plus froids au toucher. <br>
 						L’autre avantage majeur du bois est sa facilité d’entretien. Les traitements de surface de Blumenberg sont quasiment imperméables afin de réduire les variations d’humidité du bois au minimum. Elles respectent également toutes les exigences de résistance thermique, chimique et mécanique ainsi que les exigences hygiéniques. Ceci permet donc d’entretenir la baignoire avec des produits d’entretien de sanitaires classiques. Le bois, étant massif, se patine homogènement et gagne en aspect au fil du temps, contrairement à d’autres matériaux qui perdent leur couleur.</p>
 				</div>
+					</div>
 			</div>
 
 			<div class="body-right-picture" style="background-image:url(pics/Home_1_R_b.png);">
@@ -113,7 +133,7 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 			<div class="body-left-text">
 				<div>
 					<p><strong>Produits</strong></p>
-					<p>Blumenberg GmbH produit une gamme de produits en bois massif, basé sur la forme du tonneau. Cette forme se prête autant à des baignoires, des tonneaux de plongeon de sauna, des douches, des lavabos et d’autres accessoires. <br>Chacun de ces produits est produit avec le plus grand soin pour garantir leur qualité. La production de votre produit est suivie individuellement de la conception à la fabrication afin de vous garantir le résultat le plus adapté possible.</p>
+					<p>Blumenberg GmbH produit une gamme de produits en bois massif, basé sur la forme du tonneau. Cette forme se prête autant à des baignoires, des tonneaux de plongeon de sauna, des douches, des lavabos et d’autres accessoires. <br><br>Chacun de ces produits est produit avec le plus grand soin pour garantir leur qualité. La production de votre produit est suivie individuellement de la conception à la fabrication afin de vous garantir le résultat le plus adapté possible.</p>
 				</div>
 			</div>
 
@@ -121,9 +141,16 @@ $_SESSION['formDoor'] = array('Fr','Mi','Ni');*/
 				<div>
 					<p><strong>Personnalisation</strong></p>
 					<p>Grâce à la production unique des produits, une personnalisation poussée est possible. Le dessin de votre produit sera dans tous les cas exactement adapté à vos désirs et vos besoins.</p>
-					<a id="toggler" onclick="showme('perso', this.id);" ><strong>En savoir plus</strong></a>
-					<p id="perso" style=""><br style="margin:0px 0">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation.<br> 
+					<div class="mobile-extra" style="background-image:url(pics/Home_2_R_bE.png);">
+						<a id="toggler" style="background-image:url(pics/Home_2_R_b.png)" onclick="showme('perso', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="perso" style="background-image:url(pics/Home_2_R_bE.png);"><br style="margin:0px 0">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation.<br> 
 						Dans la section dédiée à chaque type de produit spécifique vous trouverez une description des différentes options possibles, allant des dimensions aux accessoires.</p>
+					</div>
+					<div class="extra">
+						<a id="toggler" style="background-image:url(pics/Home_2_R_b.png)" onclick="showme('perso', this.id);" ><strong>En savoir plus</strong></a>
+						<p id="perso" style="background-image:url(pics/Home_2_R_bE.png);"><br style="margin:0px 0">Une fois que vous vous êtes décidés pour un des produits uniques en bois massif, nous commencerons par déterminer le type de produit à réaliser sur base des dimensions de l’espace disponible et d’esquisses préparatoires. Chacun des produits possède des options spécifiques qui seront considérées avant leur réalisation.<br> 
+						Dans la section dédiée à chaque type de produit spécifique vous trouverez une description des différentes options possibles, allant des dimensions aux accessoires.</p>
+					</div>
 				</div>
 			</div>
 
